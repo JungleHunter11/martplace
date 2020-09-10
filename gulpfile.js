@@ -10,7 +10,7 @@ let gulp = require('gulp'),
 		babel = require('gulp-babel');
 
 gulp.task('sass', function(){
-	return gulp.src('app/scss/style.scss')
+	return gulp.src('app/scss/**/*.scss')
 						.pipe(sass({outputStyle: 'compressed'}))
 						.pipe(rename({suffix: '.min'}))
 						.pipe(autoprefixer({
@@ -32,7 +32,7 @@ gulp.task('style', function(){
 });
 
 gulp.task('main-js', function () {
-  return gulp.src('app/js/main.min.js')
+  return gulp.src('app/js/main.js')
     .pipe(babel({
       presets: ['env']
     }))
@@ -46,7 +46,8 @@ gulp.task('script', function(){
 	return gulp.src([
 		'node_modules/swiper/swiper-bundle.js',
 		'node_modules/slick-carousel/slick/slick.js',
-		'node_modules/magnific-popup/dist/jquery.magnific-popup.js'
+		'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
+		'node_modules/mixitup/dist/mixitup.js'
 	])
 			.pipe(concat('libs.min.js'))
 			.pipe(uglify())
@@ -59,7 +60,7 @@ gulp.task('html', function(){
 });
 
 gulp.task('js', function(){
-	return gulp.src('app/js/*.js')
+	return gulp.src('app/js/main.min.js')
 			.pipe(browserSync.reload({stream: true}))
 });
 
@@ -72,9 +73,9 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('watch', function(){
-	gulp.watch('app/scss/style.scss', gulp.parallel('sass'))
+	gulp.watch('app/scss/**/*.scss', gulp.parallel('sass'))
 	gulp.watch('app/*.html', gulp.parallel('html'))
-	gulp.watch('app/js/main.min.js', gulp.parallel('js'))
+	gulp.watch('app/js/main.js', gulp.parallel('js'))
 	gulp.watch('app/js/main.js', gulp.parallel('main-js'));
 });
 
