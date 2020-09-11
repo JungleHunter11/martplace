@@ -1,3 +1,4 @@
+@import '../scss/fonts';
 @import '../scss/vars';
 @import '../scss/global';
 
@@ -660,15 +661,17 @@
 		font-weight: 400;
 	}
 
-	&__platform::before {
-		content: '';
-		background-image: url(../images/icons/wordpress-icon.svg);
+	&__platform-icon {
 		width: 15px;
 		height: 15px;
 		position: absolute;
 		top: 50%;
 		left: -18px;
 		transform: translateY(-50%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		font-size: 0;
 	}
 
 	&__descr {
