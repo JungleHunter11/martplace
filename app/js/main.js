@@ -7,8 +7,9 @@ $(function () {
 
 	$('.followers-feed__slider').slick({
 		infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		variableWidth: true,
 	});
 
 	var mixer = mixitup('.release-template');

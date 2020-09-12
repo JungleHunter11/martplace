@@ -432,6 +432,7 @@
 	}
 
 }
+
 // marketplace end
 // info start
 
@@ -503,6 +504,7 @@
 	}
 
 }
+
 // info end
 
 .products-weekly {
@@ -537,7 +539,7 @@
 	&__release-filter {
 		position: relative;
 		padding-right: 28px;
-    margin-right: 30px;
+		margin-right: 30px;
 		font-size: 16px;
 		line-height: 32px;
 		font-weight: 400;
@@ -563,6 +565,7 @@
 		text-decoration: none;
 	}
 }
+
 // products end
 // template start
 
@@ -576,7 +579,7 @@
 
 	&__image {
 		max-width: 555px;
-    width: 100%;
+		width: 100%;
 		font-size: 0;
 		border-top-left-radius: 3px;
 		border-bottom-left-radius: 3px;
@@ -602,7 +605,7 @@
 
 	&__user-info {
 		max-width: 586px;
-    width: 100%;
+		width: 100%;
 		padding: 47px 51px 26px 51px;
 		background-color: $white;
 		border-top-right-radius: 3px;
@@ -784,6 +787,7 @@
 	}
 
 }
+
 // template end
 // products-release start
 
@@ -833,6 +837,7 @@
 	}
 
 }
+
 // products-release start
 // release-template start
 
@@ -840,4 +845,21 @@
 	margin-bottom: 29px;
 
 }
+
 // release-template end
+// followers-feed start
+
+.followers-feed {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	background-color: #eff1f5;
+
+	&__title {
+		height: 110px;
+	}
+
+	&__item {
+		margin-right: 27px;
+	}
+
+}

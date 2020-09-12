@@ -69,11 +69,6 @@ header {
 	cursor: pointer;
 }
 
-
-
-
-
-
 .user-name {
 	display: flex;
 	justify-content: flex-start;
@@ -238,9 +233,8 @@ header {
 
 .userinfo {
 	margin-bottom: 10px;
-	padding: 30px 30px 16px;
+	padding: 30px 30px 25px;
 	width: 100%;
-	border-bottom: 1px solid #f6f7fb;
 }
 
 .template-title {
@@ -335,6 +329,7 @@ header {
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 	background-color: #fff;
+	border-top: 1px solid #f6f7fb;;
 }
 
 .price {
@@ -373,10 +368,12 @@ header {
 
 .button-heart::before {
 	content: "\e813";
+	color: #7f4ec2;
 }
 
 .button-cart::before {
 	content: "\e82e";
 	left: -24px;
+	color: $blue;
 }
 // release-template end
