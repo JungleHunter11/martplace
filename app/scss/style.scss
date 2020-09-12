@@ -813,7 +813,7 @@
 // release-template start
 
 .release-template {
-	margin-bottom: 29px;
+	margin-bottom: 26px;
 
 }
 
@@ -863,7 +863,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-top: 192px;
+		padding-top: 151px;
 		padding-bottom: 96px;
 	}
 
@@ -932,8 +932,8 @@
 		max-width: 751px;
 		width: 100%;
 		margin: 0 auto;
-		padding-top: 120px;
-		padding-bottom: 120px;
+		padding-top: 110px;
+		padding-bottom: 71px;
 		text-align: center;
 	}
 
@@ -955,6 +955,7 @@
 		justify-content: space-between;
 		align-items: center;
 		flex-wrap: wrap;
+		margin-bottom: 90px;
 	}
 
 	&__payment-item {
@@ -1023,5 +1024,70 @@
 		content: "\e831";
 		color: #ff6a6d;
 	}
+
+}
+
+// profit end
+
+// assignment start
+
+.assignment {
+
+	&__inner {
+		display: flex;
+		align-items: center;
+	}
+
+	&__item {
+		max-width: 50%;
+		width: 50%;
+		min-height: 561px;
+		padding: 100px 181px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+	}
+
+	&__icon {
+		max-width: 120px;
+		min-height: 120px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		font-size: 0;
+	}
+
+	&__title,
+	&__text {
+		font-size: 36px;
+		line-height: 30px;
+		font-weight: 400;
+		color: #fff;
+	}
+
+	&__title {
+		margin-bottom: 30px;
+	}
+
+	&__text {
+		margin-bottom: 45px;
+		font-size: 16px;
+	}
+
+	&__link {
+		padding: 17px 26px;
+		background-color: #fff;
+		border-radius: 30px;
+		font-size: 16px;
+		line-height: 72px;
+		color: $blue;
+		font-weight: 400;
+		text-decoration: none;
+	}
+
+
 
 }
