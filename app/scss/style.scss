@@ -445,35 +445,6 @@
 		padding-bottom: 119px;
 	}
 
-	&__item {
-		position: relative;
-		max-width: 361px;
-		height: 405px;
-		padding: 203px 34px 20px;
-		border-radius: 4px;
-		text-align: center;
-		text-decoration: none;
-	}
-
-	&__item:hover {
-		box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
-	}
-
-	&__item-title {
-		margin-bottom: 30px;
-		font-size: 24px;
-		line-height: 7px;
-		font-weight: 400;
-		color: #010101;
-	}
-
-	&__item-text {
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 30px;
-		color: #555;
-	}
-
 	&__item-research:after {
 		content: '';
 		background-image: url(../images/icons/research-icon.png);
@@ -884,6 +855,8 @@
 
 }
 
+// stats start
+
 .stats {
 
 	&__items {
@@ -906,6 +879,9 @@
 		font-size: 48px;
 		line-height: 36px;
 		font-weight: 500;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
 
 	&__itemsforsale-img::before {
@@ -941,6 +917,110 @@
 	}
 
 	&__members-amount {
+		color: #ff6a6d;
+	}
+
+}
+
+// stats end
+
+// profit start
+
+.profit {
+
+	&__inner {
+		max-width: 751px;
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 120px;
+		padding-bottom: 120px;
+		text-align: center;
+	}
+
+	&__title {
+		margin-bottom: 28px;
+		font-size: 36px;
+		line-height: 38px;
+		color: #000;
+		font-weight: 400;
+	}
+
+	&__martplace-link {
+		color: $blue;
+		text-decoration: none;
+	}
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	&__payment-item {
+		position: relative;
+		margin-bottom: 30px;
+		box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+		border-radius: 4px;
+	}
+
+	&__item-number {
+		position: absolute;
+		top: 20px;
+		left: 19px;
+		font-size: 48px;
+		color: rgba(92, 135, 248, 0.2);
+	}
+
+	&__item-icon {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		font-size: 0;
+	}
+
+	&__item-icon-payment::before,
+	&__item-icon-quality::before,
+	&__item-icon-secure::before,
+	&__item-icon-code::before,
+	&__item-icon-update::before,
+	&__item-icon-support::before {
+		position: absolute;
+		left: 50%;
+		top: 50px;
+		transform: translateX(-50%);
+		font-family: 'Linearicons-Free';
+		font-size: 60px;
+		font-weight: 400;
+	}
+
+	&__item-icon-payment::before {
+		content: "\e822";
+		color: $blue;
+	}
+
+	&__item-icon-quality::before {
+		content: "\e803";
+		color: #7f4ec2;
+	}
+
+	&__item-icon-secure::before {
+		content: "\e80f";
+		color: #77de51;
+	}
+
+	&__item-icon-code::before {
+		content: "\e843";
+		color: #feb71d;
+	}
+
+	&__item-icon-update::before {
+		content: "\e849";
+		color: #58c9e9;
+	}
+
+	&__item-icon-support::before {
+		content: "\e831";
 		color: #ff6a6d;
 	}
 
