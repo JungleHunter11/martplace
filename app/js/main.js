@@ -10,6 +10,7 @@ $(function () {
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		variableWidth: true,
+		speed: 1000,
 	});
 
 	var mixer = mixitup('.release-template');
