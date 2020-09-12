@@ -8,13 +8,6 @@ html {
 	box-sizing: inherit;
 }
 
-.container {
-	max-width: 1170px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0 15px;
-}
-
 body,
 header {
 	font-family: 'Open Sans', sans-serif;
@@ -22,6 +15,19 @@ header {
 	font-style: normal;
 	font-display: swap;
 }
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.container-fluid {
+	max-width: 100%;
+	width: 100%;
+}
+
 
 .title {
 	max-width: 100%;
@@ -147,7 +153,6 @@ header {
 }
 
 .template-picture {
-	position: relative;
 	height: 100%;
 	display: block;
 	min-height: 230px;
@@ -160,7 +165,6 @@ header {
 
 
 .template-link {
-	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;

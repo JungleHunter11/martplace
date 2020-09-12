@@ -855,11 +855,31 @@
 	background-color: #eff1f5;
 
 	&__title {
+		position: relative;
 		height: 110px;
+		margin-bottom: 51px;
 	}
 
 	&__item {
 		margin-right: 27px;
+	}
+
+	&__arrow-left,
+	&__arrow-right {
+		background-color: $blue;
+		top: -130px;
+	}
+
+	&__arrow-left {
+		right: 85px;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+	}
+
+	&__arrow-right {
+		right: 30px;
+		border-top-right-radius: 30px;
+		border-bottom-right-radius: 30px;
 	}
 
 }
