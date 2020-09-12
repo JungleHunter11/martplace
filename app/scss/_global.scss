@@ -26,6 +26,7 @@ header {
 .container-fluid {
 	max-width: 100%;
 	width: 100%;
+	background-color: #212225;
 }
 
 
@@ -381,3 +382,27 @@ header {
 	color: $blue;
 }
 // release-template end
+// stats start
+
+.column {
+	position: relative;
+	max-width: 25%;
+	text-align: center;
+}
+
+.stats-text {
+	font-size: 18px;
+	line-height: 36px;
+	color: $white;
+	font-weight: 400;
+}
+ 
+.stats-amount {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 400;
+}
+
+.stats-image {
+	font-size: 0;
+}
