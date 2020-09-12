@@ -5,6 +5,12 @@ $(function () {
 		nextArrow: '<button class="arrow template__arrow template__arrow-right"><img class="template__img-arrow-right" src="../images/icons/chevron-right.svg" alt=""></button>',
 	});
 
+	$('.followers-feed__slider').slick({
+		infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+	});
+
 	var mixer = mixitup('.release-template');
 
 	$('.rate-star').rateYo({
@@ -16,7 +22,7 @@ $(function () {
 
 
 
-	$('.release-template__star-rate').rateYo({
+	$('.star-rate').rateYo({
 		rating: 4,
 		starWidth: "13px",
 		spacing: "4px",
