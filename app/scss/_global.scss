@@ -30,11 +30,13 @@ header {
 }
 
 .main-link {
-		padding: 18px 34px;
-		border-radius: 30px;
-		font-size: 16px;
-		text-decoration: none;
-	}
+	display: inline-block;
+	min-width: 190px;
+	padding: 18px 34px;
+	border-radius: 30px;
+	font-size: 16px;
+	text-decoration: none;
+}
 
 // info start
 
@@ -377,7 +379,8 @@ header {
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 	background-color: #fff;
-	border-top: 1px solid #f6f7fb;;
+	border-top: 1px solid #f6f7fb;
+	;
 }
 
 .price {
@@ -424,6 +427,7 @@ header {
 	left: -24px;
 	color: $blue;
 }
+
 // release-template end
 // stats start
 
@@ -439,7 +443,7 @@ header {
 	color: $white;
 	font-weight: 400;
 }
- 
+
 .stats-amount {
 	font-size: 36px;
 	line-height: 36px;
@@ -449,5 +453,6 @@ header {
 .stats-image {
 	font-size: 0;
 }
+
 // stats end
 // 
