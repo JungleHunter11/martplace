@@ -429,24 +429,29 @@
 		padding-bottom: 119px;
 	}
 
-	&__item-research:after {
-		content: '';
+	&__item-research,
+	&__item-responsive,
+	&__item-buysell {
+		min-height: 403px;
+		padding: 205px 34px 20px;
+	}
+
+	&__item-research::after {
 		background-image: url(../images/icons/research-icon.png);
 	}
 
-	&__item-responsive:after {
-		content: '';
+	&__item-responsive::after {
 		background-image: url(../images/icons/responsive-icon.png);
 	}
 
-	&__item-buysell:after {
-		content: '';
+	&__item-buysell::after {
 		background-image: url(../images/icons/buysell-icon.png);
 	}
 
-	&__item-research:after,
-	&__item-responsive:after,
-	&__item-buysell:after {
+	&__item-research::after,
+	&__item-responsive::after,
+	&__item-buysell::after {
+		content: '';
 		width: 120px;
 		height: 120px;
 		position: absolute;
@@ -915,7 +920,7 @@
 		width: 100%;
 		margin: 0 auto;
 		padding-top: 110px;
-		padding-bottom: 71px;
+		padding-bottom: 54px;
 		text-align: center;
 	}
 
@@ -942,14 +947,16 @@
 
 	&__payment-item {
 		position: relative;
+		min-height: 373px;
 		margin-bottom: 30px;
+		padding: 160px 34px 20px;
 		box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
 		border-radius: 4px;
 	}
 
 	&__item-number {
 		position: absolute;
-		top: 20px;
+		top: 9px;
 		left: 19px;
 		font-size: 48px;
 		color: rgba(92, 135, 248, 0.2);
@@ -1024,7 +1031,7 @@
 		max-width: 50%;
 		width: 50%;
 		min-height: 561px;
-		padding: 100px 181px;
+		padding: 90px 181px;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -1051,11 +1058,11 @@
 	}
 
 	&__title {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	&__text {
-		margin-bottom: 45px;
+		margin-bottom: 16px;
 		font-size: 16px;
 	}
 
@@ -1073,6 +1080,7 @@
 	}
 
 }
+
 // assignment end
 
 // feedback start
@@ -1113,10 +1121,11 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-bottom: 80px;
+		margin-bottom: 57px;
 	}
 
 	&__item {
+		min-height: 315px;
 		max-width: 555px;
 		padding: 45px 40px;
 		border-left: 1px solid $blue;
