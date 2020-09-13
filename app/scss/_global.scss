@@ -29,6 +29,13 @@ header {
 	background-color: #212225;
 }
 
+.main-link {
+		padding: 18px 34px;
+		border-radius: 30px;
+		font-size: 16px;
+		text-decoration: none;
+	}
+
 // info start
 
 .item {
@@ -180,6 +187,7 @@ header {
 	min-height: 529px;
 	margin-bottom: 25px;
 	box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+	text-align: left;
 }
 
 .template-image {
