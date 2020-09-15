@@ -5,9 +5,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Martplace</title>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Quicksand:wght@300;400;500;600;700&display=swap"
-		rel="stylesheet">
 	<link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="images/icons/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
@@ -21,169 +18,163 @@
 			<div class="container">
 				<div class="header__top-inner">
 
-					<div class="header__logo">
-						<a class="header__logo-link" href="#">
-							<img class="header__logo-img" src="images/header-logo.png" alt="logo">
+					<a class="header__logo-link" href="#">
+						<img class="header__logo-img" src="images/header-logo.png" alt="logo">
+					</a>
+					<a class="header__join-link" href="#">
+						Become a Seller
+					</a>
+
+
+					<div class="header__links">
+						<a href="#" class="header__link-icon header__link--notif">
+							<span class="header__item">notifications</span>
+							<span class="header__amount header__amount--notif">25</span>
+						</a>
+						<a href="#" class="header__link-icon header__link--message">
+							<span class="header__item">messages</span>
+							<span class="header__amount header__amount--message">6</span>
+						</a>
+						<a href="#" class="header__link-icon header__link--cart">
+							<span class="header__item">cart</span>
+							<span class="header__amount header__amount--cart">2</span>
 						</a>
 					</div>
-					<div class="header__link">
-						<a class="header__join-link main-link" href="#">
-							Become a Seller
-						</a>
-					</div>
-						
 
-						<div class="header__user-links">
-							<a href="#" class="header__link-icon header__notific-icon">
-								<span class="header__link-item">notifications</span>
-								<span class="header__link-icon-amount header__notif-amount">25</span>
-							</a>
-							<a href="#" class="header__link-icon header__message-icon">
-								<span class="header__link-item">messages</span>
-								<span class="header__link-icon-amount header__message-amount">6</span>
-							</a>
-							<a href="#" class="header__link-icon header__cart-icon">
-								<span class="header__link-item">cart</span>
-								<span class="header__link-icon-amount header__cart-amount">2</span>
-							</a>
-						</div>
-
-						<div class="header__user-info">
-							<a class="header__user-icon" href="#" style="background-image: url(images/content/user-icon.jpg);">
-							</a>
-							<div class="headser__user-box">
-								<a class="header__user-name" href="#">
-									Taofiq Hakim
-								</a>
-								<a class="header__user-wallet" href="#">$20.45</a>
-							</div>
+					<a class="header__user-info" href="#">
+						<img class="header__user-icon" src="images/content/user-icon.jpg" alt="user icon">
+						<div class="header__user-name">
+							Taofiq Hakim
+							<span class="header__user-wallet" href="#">$20.45</span>
 						</div>
 
 				</div>
+				</a>
+
 			</div>
+		</div>
 		</div>
 
 		<div class="header__ground">
 			<div class="container">
 				<div class="header__ground-inner">
 
-					<div class="header__main-menu">
-						<ul class="header__menu-list">
-							<li class="header__menu-item">
-								<a class="header__menu-link" href="#">
+					<nav class="header__main-menu">
+						<ul class="header__list">
+							<li class="header__item">
+								<a class="header__link" href="#">
 									home
 								</a>
 							</li>
-							<li class="header__menu-item">
-								<a class="header__menu-link" href="#">
+							<li class="header__item">
+								<a class="header__link" href="#">
 									all products
 								</a>
 							</li>
-							<li class="header__menu-item">
-								<a class="header__menu-link" href="#">
+							<li class="header__item">
+								<a class="header__link" href="#">
 									wordpress
 								</a>
 							</li>
-							<li class="header__menu-item">
-								<a class="header__menu-link" href="#">
+							<li class="header__item">
+								<a class="header__link" href="#">
 									festures
 								</a>
 							</li>
-							<li class="header__menu-item">
-								<a class="header__menu-link" href="#">
+							<li class="header__item">
+								<a class="header__link" href="#">
 									Pages
 								</a>
 							</li>
 						</ul>
-					</div>
+					</nav>
 
-					<div class="header__search">
-						<form class="header__search-form">
-							<input class="header__search-product" type="text" placeholder="Search product here...">
-							<button class="header__search-btn" type="search">
-								<span class="lnr lnr-magnifier header__search-icon"></span>
-							</button>
-						</form>
-					</div>
+					<form class="header__form">
+						<input class="header__input" type="search" placeholder="Search product here...">
+						<button class="header__btn" type="submit">
+						</button>
+					</form>
 
 				</div>
 			</div>
-		</div>
 		</div>
 	</header>
 
 	<main class="main">
-		<section class="marketplace" style="background-image: url(images/marketplace-bg.jpg)">
+		<section class="marketplace">
 
-			<div class="container">
-				<div class="marketplace__inner">
+			<div class="marketplace__bg">
+				<div class="marketplace__bg-img">
+					<div class="container">
+						<div class="marketplace__inner">
 
-					<div class="marketplace__title">
-						<span class="marketplace__title-phrase marketplace__title--mainphrase">
-							Create Your Own
-						</span>
-						<span class="marketplace__title-phrase marketplace__title--secondaryphrase">
-							Digital Product Marketplace
-						</span>
-						<p class="marketplace__title-text">
-							MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
-						</p>
-					</div>
-
-					<div class="marketplace__title-buttons">
-						<a class="marketplace__link marketplace__all-link main-link" href="#">
-							View All Products
-						</a>
-						<a class="marketplace__link marketplace__popular-link main-link" href="#">
-							Popular Products
-						</a>
-					</div>
-
-
-					<div class="marketplace__decor marketplace__decor--bottom"></div>
-					<div class="marketplace__decor marketplace__decor--middle"></div>
-					<div class="marketplace__search">
-						<form class="marketplace__search-form">
-							<input class="marketplace__search-input" type="text" placeholder="Search your products...">
-							<div class="marketplace__search-filter">
-								All Categories
+							<div class="marketplace__title">
+								<span class="marketplace__phrase marketplace__title-phrase--mainphrase">
+									Create Your Own
+								</span>
+								<span class="marketplace__phrase marketplace__title-phrase--secondaryphrase">
+									Digital Product Marketplace
+								</span>
+								<p class="marketplace__text">
+									MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+								</p>
 							</div>
-							<button class="marketplace__search-btn">
-								Search Now
-							</button>
-						</form>
-					</div>
 
+							<div class="marketplace__buttons">
+								<a class="marketplace__link marketplace__all-link" href="#">
+									View All Products
+								</a>
+								<a class="marketplace__link marketplace__popular-link" href="#">
+									Popular Products
+								</a>
+							</div>
+
+
+							<div class="marketplace__decor marketplace__decor--bottom"></div>
+							<div class="marketplace__decor marketplace__decor--middle"></div>
+							<div class="marketplace__search">
+								<form class="marketplace__form">
+										<input class="marketplace__input" type="text" placeholder="Search your products...">
+										<select class="marketplace__filter">
+											<option value="0">All Categories</option>
+										</select>
+										<button class="marketplace__btn">
+											Search Now
+										</button>
+								</form>
+							</div>
+
+						</div>
+					</div>
 				</div>
 			</div>
-
 		</section>
 
 		<section class="info">
 			<div class="container">
 				<div class="info__inner">
 
-					<a class="info__item-research item" href="#">
-						<div class="info__item-title item-title">Best UX Research</div>
-						<div class="info__item-text item-text">
+					<a class="info__item info__item--research" href="#">
+						<div class="info__item-title">Best UX Research</div>
+						<div class="info__item-text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
 						</div>
 					</a>
 
-					<a class="info__item-responsive item" href="#">
-						<div class="info__item-title item-title">Fully Responsive</div>
-						<div class="info__item-text item-text">
+					<a class="info__item info__item--responsive" href="#">
+						<div class="info__item-title">Fully Responsive</div>
+						<div class="info__item-text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
 						</div>
 					</a>
 
-					<a class="info__item-buysell item" href="#">
-						<div class="info__item-title item-title">Buy & Sell Easily</div>
-						<div class="info__item-text item-text">
+					<a class="info__item info__item--buysell" href="#">
+						<div class="info__item-title">Buy & Sell Easily</div>
+						<div class="info__item-text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
@@ -197,37 +188,31 @@
 		<section class="products">
 			<div class="products-weekly">
 				<div class="container">
-					<div class="products__title title">
+					<div class="products__title">
 						Weekly Featured Products
 					</div>
 					<div class="products-weekly__slider">
 
-
-
 						<div class="template">
 
-							<div class="template__image template-image">
-								<a class="template__template-img template-picture" href="#"
-									style="background-image: url(images/content/template-bg.jpg);">
-								</a>
-								<div class="template__links template-link">
-									<a class="template__imagelink-moreinfo image-link moreinfo" href="#">
+							<div class="template__image">
+								<img class="template__template-img" src="images/content/template-bg.jpg">
+								</img>
+								<div class="template__links">
+									<a class="template__imagelink template__imagelink--moreinfo" href="#">
 										More Info</a>
-									<a class="template__imagelink-livedemo image-link livedemo" href="#">
+									<a class="template__imagelink template__imagelink--livedemo" href="#">
 										Live Demo</a>
 								</div>
 							</div>
 							<div class="template__user-info">
-								<div class="template__title">
-									<a href="#" class="template__title-link">
-										One Page Resume Template
-									</a>
-								</div>
+								<a href="#" class="template__title-link">
+									One Page Resume Template
+								</a>
 								<div class="template__user-name">
 
-									<a href="#" class="template__user-name-link">
-										<span class="template__user-icon"
-											style="background-image: url(images/content/user-icon.jpg);"></span>
+									<a href="#" class="template__link">
+										<img class="template__user-icon" src="images/content/user-icon.jpg"></img>
 										AazzTech
 									</a>
 									<a href="#" class="template__platform">
@@ -240,19 +225,46 @@
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
 									mattis,
+									leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+									pharetra, justo ut scelerisque the mattis, leo quam
+									aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+									mattis,
+									leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+									pharetra, justo ut scelerisque the mattis, leo quam
+									aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+									mattis,
+									leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+									pharetra, justo ut scelerisque the mattis, leo quam
+									aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+									mattis,
 									leo quam aliquet congue justo ut scelerisque.
 								</div>
 								<div class="template__category">
-									<button class="template__category-btn btn">website</button>
-									<button class="template__category-btn btn">plugin</button>
-									<button class="template__category-btn btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
 
 								</div>
 								<div class="template__specs">
 									<div class="template__data">
-										<div class="template__price price">$10 - $50</div>
-										<button class="template__likes specs-btn">46</button>
-										<button class="template__purchases specs-btn">634</button>
+										<div class="template__price">$10 - $50</div>
+										<button class="template__likes">46</button>
+										<button class="template__purchases">634</button>
 									</div>
 									<div class="template__rate-star">
 										<div class="rate-star"></div>
@@ -263,28 +275,24 @@
 
 						<div class="template">
 
-							<div class="template__image template-image">
-								<a class="template__template-img template-picture" href="#"
-									style="background-image: url(images/content/template-bg.jpg);">
-								</a>
-								<div class="template__links template-link">
-									<a class="template__imagelink-moreinfo image-link moreinfo" href="#">
+							<div class="template__image">
+								<img class="template__template-img" src="images/content/template-bg.jpg">
+								</img>
+								<div class="template__links">
+									<a class="template__imagelink template__imagelink--moreinfo" href="#">
 										More Info</a>
-									<a class="template__imagelink-livedemo image-link livedemo" href="#">
+									<a class="template__imagelink template__imagelink--livedemo" href="#">
 										Live Demo</a>
 								</div>
 							</div>
 							<div class="template__user-info">
-								<div class="template__title">
-									<a href="#" class="template__title-link">
-										One Page Resume Template
-									</a>
-								</div>
+								<a href="#" class="template__title-link">
+									One Page Resume Template
+								</a>
 								<div class="template__user-name">
 
-									<a href="#" class="template__user-name-link">
-										<span class="template__user-icon"
-											style="background-image: url(images/content/user-icon.jpg);"></span>
+									<a href="#" class="template__link">
+										<img class="template__user-icon" src="images/content/user-icon.jpg"></img>
 										AazzTech
 									</a>
 									<a href="#" class="template__platform">
@@ -295,19 +303,58 @@
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam
 									aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
 									mattis,
+									leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+									pharetra, justo ut scelerisque the mattis, leo quam
+									aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+									mattis,
+									leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+									pharetra, justo ut scelerisque the mattis, leo quam
+									aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+									mattis,
+									leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+									pharetra, justo ut scelerisque the mattis, leo quam
+									aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+									mattis,
 									leo quam aliquet congue justo ut scelerisque.
 								</div>
 								<div class="template__category">
-									<button class="template__category-btn btn">website</button>
-									<button class="template__category-btn btn">plugin</button>
-									<button class="template__category-btn btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
+									<button class="template__category-btn">website</button>
+									<button class="template__category-btn">plugin</button>
+									<button class="template__category-btn">landing page</button>
 
 								</div>
 								<div class="template__specs">
 									<div class="template__data">
-										<div class="template__price price">$10 - $50</div>
-										<button class="template__likes specs-btn">46</button>
-										<button class="template__purchases specs-btn">634</button>
+										<div class="template__price">$10 - $50</div>
+										<button class="template__likes">46</button>
+										<button class="template__purchases">634</button>
 									</div>
 									<div class="template__rate-star">
 										<div class="rate-star"></div>
@@ -323,347 +370,411 @@
 
 			<div class="products-release">
 				<div class="container">
-					<div class="products__release-title title">
+					<div class="products__release-title">
 						Newest Release Products
-						<div class="products__release-filter">
-							<a href="#" class="products__release-filter-link">
-								Filter by:
-							</a>
-						</div>
+						<button class="products__release-filter">
+							Filter by:
+						</button>
 					</div>
 
-					<div class="products-release__category title">
-						<button class="products-release__category-btn	btn" type="button" data-filter=".category-plugin">
+					<div class="products-release__category">
+						<button class="products-release__category-btn" type="button" data-filter=".category-plugin">
 							Plugins
 						</button>
-						<button class="products-release__category-btn	btn" type="button" data-filter=".category-wordpress">
+						<button class="products-release__category-btn" type="button" data-filter=".category-wordpress">
 							WordPress
 						</button>
-						<button class="products-release__category-btn	btn" type="button" data-filter=".category-landingpage">
+						<button class="products-release__category-btn" type="button" data-filter=".category-landingpage">
 							Site Template
 						</button>
-						<button class="products-release__category-btn	btn" type="button" data-filter=".category-psd">
+						<button class="products-release__category-btn" type="button" data-filter=".category-psd">
 							PSD Template
 						</button>
-						<button class="products-release__category-btn	btn" type="button" data-filter=".category-software">
+						<button class="products-release__category-btn" type="button" data-filter=".category-software">
 							Joomla
 						</button>
-						<button class="products-release__category-btn	btn" type="button" data-filter=".category-landingpage">
+						<button class="products-release__category-btn" type="button" data-filter=".category-landingpage">
 							User Interface
 						</button>
-						<button class="products-release__category-btn	btn" type="button" data-filter=".category-plugin">
+						<button class="products-release__category-btn" type="button" data-filter=".category-plugin">
 							Landing Page
 						</button>
-						<button class="products-release__category-btn	btn" type="button" data-filter=".category-software">
+						<button class="products-release__category-btn" type="button" data-filter=".category-software">
+							Software
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-plugin">
+							Plugins
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-wordpress">
+							WordPress
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-landingpage">
+							Site Template
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-psd">
+							PSD Template
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-software">
+							Joomla
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-landingpage">
+							User Interface
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-plugin">
+							Landing Page
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-software">
+							Software
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-plugin">
+							Plugins
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-wordpress">
+							WordPress
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-landingpage">
+							Site Template
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-psd">
+							PSD Template
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-software">
+							Joomla
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-landingpage">
+							User Interface
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-plugin">
+							Landing Page
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-software">
+							Software
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-plugin">
+							Plugins
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-wordpress">
+							WordPress
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-landingpage">
+							Site Template
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-psd">
+							PSD Template
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-software">
+							Joomla
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-landingpage">
+							User Interface
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-plugin">
+							Landing Page
+						</button>
+						<button class="products-release__category-btn" type="button" data-filter=".category-software">
 							Software
 						</button>
 					</div>
 
-					<div class="release-template template-box">
+					<div class="release-template">
 
-						<div class="release-template__item template-item mix category-joomla">
-							<div class="release-template__image template-image">
-								<a class="release-template__template-img template-picture" href="#"
-									style="background-image: url(images/content/template-bg.jpg);">
+						<div class="release-template__item mix category-joomla">
+							<div class="release-template__image">
+								<a class="release-template__template-img" href="#"
+									style="background-image: url(images/content/template-bg-green.jpg);">
 								</a>
-								<div class="release-template__links template-link">
-									<a class="release-template__imagelink-moreinfo image-link moreinfo" href="#">
+								<div class="release-template__links">
+									<a class="release-template__imagelink release-template__imagelink--moreinfo" href="#">
 										More Info</a>
-									<a class="release-template__imagelink-livedemo image-link livedemo" href="#">
+									<a class="release-template__imagelink release-template__imagelink--livedemo" href="#">
 										Live Demo</a>
 								</div>
 							</div>
-							<div class="release-template__user-info userinfo">
-								<div class=" release-template__title template-title">
-									<a href="#" class=" release-template__title-link title-link">
-										E-commerce Shopping Cart
-									</a>
-								</div>
+							<div class="release-template__user-info">
+								<a href="#" class="release-template__title-link">
+									E-commerce Shopping Cart
+								</a>
 
-								<div class=" release-template__user-name user-name">
-									<a href="#" class="release-template__user-name-link user-name-link">
-										<span class="release-template__user-icon user-icon"></span>
+								<div class="release-template__user-name">
+									<a href="#" class="release-template__link">
+										<img class="release-template__user-icon" src="images/content/user-icon-purple.jpg">
+										<span class="release-template__user-icon-text">user icon</span>
+										</img>
 										Theme-Valley
 									</a>
-									<a href="#" class=" release-template__platform user-platform">
-										<span class="release-template__icon-platform icon-platform"
-											style="background-image: url(images/icons/html.svg);"></span>
-										<span class="release-template__platform-name platform-name">Plugin</span>
+									<a href="#" class=" release-template__platform">
+										<span class="release-template__icon" style="background-image: url(images/icons/html.svg);"></span>
+										<span class="release-template__platform-name">Plugin</span>
 									</a>
 								</div>
 
-								<div class=" release-template__descr description">
+								<div class="release-template__descr">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 									the mattis, leo quam aliquet congue.
 								</div>
 							</div>
-							<div class="release-template__specs specs">
-								<div class="release-template__info info">
-									<div class="release-template__price price">
+							<div class="release-template__specs">
+								<div class="release-template__info">
+									<div class="release-template__price">
 										$20
 									</div>
-									<button href="#" class="release-template__button button btn button-heart">
+									<button href="#" class="release-template__button release-template__button--heart">
 										90
 									</button>
-									<button href="#" class="release-template__button button btn button-cart">
+									<button href="#" class="release-template__button release-template__button--cart">
 										246
 									</button>
 								</div>
 							</div>
 						</div>
 
-						<div class="release-template__item template-item mix category-wordpress">
-							<div class="release-template__image template-image">
-								<a class="release-template__template-img template-picture" href="#"
+						<div class="release-template__item mix category-wordpress">
+							<div class="release-template__image ">
+								<a class="release-template__template-img" href="#"
 									style="background-image: url(images/content/template-bg.jpg);">
 								</a>
-								<div class="release-template__links template-link">
-									<a class="release-template__imagelink-moreinfo image-link moreinfo" href="#">
+								<div class="release-template__links">
+									<a class="release-template__imagelink release-template__imagelink--moreinfo" href="#">
 										More Info</a>
-									<a class="release-template__imagelink-livedemo image-link livedemo" href="#">
+									<a class="release-template__imagelink release-template__imagelink--livedemo" href="#">
 										Live Demo</a>
 								</div>
 							</div>
-							<div class="release-template__user-info userinfo">
-								<div class=" release-template__title template-title">
-									<a href="#" class=" release-template__title-link title-link">
-										E-commerce Shopping Cart
-									</a>
-								</div>
+							<div class="release-template__user-info">
+								<a href="#" class=" release-template__title-link">
+									E-commerce Shopping Cart
+								</a>
 
-								<div class=" release-template__user-name user-name">
-									<a href="#" class="release-template__user-name-link user-name-link">
-										<span class="release-template__user-icon user-icon"></span>
+								<div class="release-template__user-name">
+									<a href="#" class="release-template__link">
+										<img class="release-template__user-icon" src="images/content/user-icon-purple.jpg">
+										<span class="release-template__user-icon-text">user icon</span>
+										</img>
 										Theme-Valley
 									</a>
-									<a href="#" class=" release-template__platform user-platform">
-										<span class="release-template__icon-platform icon-platform"
-											style="background-image: url(images/icons/html.svg);"></span>
-										<span class="release-template__platform-name platform-name">Plugin</span>
+									<a href="#" class="release-template__platform">
+										<span class="release-template__icon" style="background-image: url(images/icons/html.svg);"></span>
+										<span class="release-template__platform-name">Plugin</span>
 									</a>
 								</div>
 
-								<div class=" release-template__descr description">
+								<div class=" release-template__descr">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 									the mattis, leo quam aliquet congue.
 								</div>
 							</div>
-							<div class="release-template__specs specs">
-								<div class="release-template__info info">
-									<div class="release-template__price price">
+							<div class="release-template__specs">
+								<div class="release-template__info">
+									<div class="release-template__price">
 										$18
 									</div>
-									<button href="#" class="release-template__button button btn button-heart">
+									<button href="#" class="release-template__button release-template__button--heart">
 										48
 									</button>
-									<button href="#" class="release-template__button button btn button-cart">
+									<button href="#" class="release-template__button release-template__button--cart">
 										50
 									</button>
 								</div>
 							</div>
 						</div>
 
-						<div class="release-template__item template-item mix category-software">
-							<div class="release-template__image template-image">
-								<a class="release-template__template-img template-picture" href="#"
-									style="background-image: url(images/content/template-bg.jpg);">
+						<div class="release-template__item mix category-software">
+							<div class="release-template__image">
+								<a class="release-template__template-img" href="#"
+									style="background-image: url(images/content/template-bg-green.jpg);">
 								</a>
-								<div class="release-template__links template-link">
-									<a class="release-template__imagelink-moreinfo image-link moreinfo" href="#">
+								<div class="release-template__links">
+									<a class="release-template__imagelink release-template__imagelink--moreinfo" href="#">
 										More Info</a>
-									<a class="release-template__imagelink-livedemo image-link livedemo" href="#">
+									<a class="release-template__imagelink release-template__imagelink--livedemo" href="#">
 										Live Demo</a>
 								</div>
 							</div>
-							<div class="release-template__user-info userinfo">
-								<div class=" release-template__title template-title">
-									<a href="#" class=" release-template__title-link title-link">
-										E-commerce Shopping Cart
-									</a>
-								</div>
+							<div class="release-template__user-info">
+								<a href="#" class=" release-template__title-link">
+									E-commerce Shopping Cart
+								</a>
 
-								<div class=" release-template__user-name user-name">
-									<a href="#" class="release-template__user-name-link user-name-link">
-										<span class="release-template__user-icon user-icon"></span>
+								<div class="release-template__user-name">
+									<a href="#" class="release-template__link">
+										<img class="release-template__user-icon" src="images/content/user-icon-purple.jpg">
+										<span class="release-template__user-icon-text">user icon</span>
+										</img>
 										Theme-Valley
 									</a>
-									<a href="#" class=" release-template__platform user-platform">
-										<span class="release-template__icon-platform icon-platform"
-											style="background-image: url(images/icons/html.svg);"></span>
-										<span class="release-template__platform-name platform-name">Plugin</span>
+									<a href="#" class="release-template__platform">
+										<span class="release-template__icon" style="background-image: url(images/icons/html.svg);"></span>
+										<span class="release-template__platform-name">Plugin</span>
 									</a>
 								</div>
 
-								<div class=" release-template__descr description">
+								<div class=" release-template__descr">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 									the mattis, leo quam aliquet congue.
 								</div>
 							</div>
-							<div class="release-template__specs specs">
-								<div class="release-template__info info">
-									<div class="release-template__price price">
+							<div class="release-template__specs">
+								<div class="release-template__info">
+									<div class="release-template__price">
 										$10
 									</div>
-									<button href="#" class="release-template__button button btn button-heart">
+									<button href="#" class="release-template__button release-template__button--heart">
 										56
 									</button>
 									<div class="release-template__star-rate star-rate"></div>
-									<button href="#" class="release-template__button button btn button-cart">
+									<button href="#" class="release-template__button release-template__button--cart">
 										68
 									</button>
 								</div>
 							</div>
 						</div>
 
-						<div class="release-template__item template-item mix category-plugin">
-							<div class="release-template__image template-image">
-								<a class="release-template__template-img template-picture" href="#"
-									style="background-image: url(images/content/template-bg.jpg);">
+						<div class="release-template__item mix category-plugin">
+							<div class="release-template__image">
+								<a class="release-template__template-img" href="#"
+									style="background-image: url(images/content/template-bg-green.jpg);">
 								</a>
-								<div class="release-template__links template-link">
-									<a class="release-template__imagelink-moreinfo image-link moreinfo" href="#">
+								<div class="release-template__links">
+									<a class="release-template__imagelink release-template__imagelink--moreinfo" href="#">
 										More Info</a>
-									<a class="release-template__imagelink-livedemo image-link livedemo" href="#">
+									<a class="release-template__imagelink release-template__imagelink--livedemo" href="#">
 										Live Demo</a>
 								</div>
 							</div>
-							<div class="release-template__user-info userinfo">
-								<div class=" release-template__title template-title">
-									<a href="#" class=" release-template__title-link title-link">
-										E-commerce Shopping Cart
-									</a>
-								</div>
+							<div class="release-template__user-info">
+								<a href="#" class=" release-template__title-link">
+									E-commerce Shopping Cart
+								</a>
 
-								<div class=" release-template__user-name user-name">
-									<a href="#" class="release-template__user-name-link user-name-link">
-										<span class="release-template__user-icon user-icon"></span>
+								<div class="release-template__user-name">
+									<a href="#" class="release-template__link">
+										<img class="release-template__user-icon" src="images/content/user-icon-purple.jpg">
+										<span class="release-template__user-icon-text">user icon</span>
+										</img>
 										Theme-Valley
 									</a>
-									<a href="#" class=" release-template__platform user-platform">
-										<span class="release-template__icon-platform icon-platform"
-											style="background-image: url(images/icons/html.svg);"></span>
-										<span class="release-template__platform-name platform-name">Plugin</span>
+									<a href="#" class="release-template__platform">
+										<span class="release-template__icon" style="background-image: url(images/icons/html.svg);"></span>
+										<span class="release-template__platform-name">Plugin</span>
 									</a>
 								</div>
 
-								<div class=" release-template__descr description">
+								<div class=" release-template__descr">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 									the mattis, leo quam aliquet congue.
 								</div>
 							</div>
-							<div class="release-template__specs specs">
-								<div class="release-template__info info">
-									<div class="release-template__price price">
+							<div class="release-template__specs">
+								<div class="release-template__info">
+									<div class="release-template__price">
 										$10 - $50
 									</div>
-									<button href="#" class="release-template__button button btn button-heart">
+									<button href="#" class="release-template__button release-template__button--heart">
 										90
 									</button>
 									<div class="release-template__star-rate star-rate"></div>
-									<button href="#" class="release-template__button button btn button-cart">
+									<button href="#" class="release-template__button release-template__button--cart">
 										45
 									</button>
 								</div>
 							</div>
 						</div>
 
-						<div class="release-template__item template-item mix category-plugin">
-							<div class="release-template__image template-image">
-								<a class="release-template__template-img template-picture" href="#"
+						<div class="release-template__item mix category-plugin">
+							<div class="release-template__image">
+								<a class="release-template__template-img" href="#"
 									style="background-image: url(images/content/template-bg.jpg);">
 								</a>
-								<div class="release-template__links template-link">
-									<a class="release-template__imagelink-moreinfo image-link moreinfo" href="#">
+								<div class="release-template__links">
+									<a class="release-template__imagelink release-template__imagelink--moreinfo" href="#">
 										More Info</a>
-									<a class="release-template__imagelink-livedemo image-link livedemo" href="#">
+									<a class="release-template__imagelink release-template__imagelink--livedemo" href="#">
 										Live Demo</a>
 								</div>
 							</div>
-							<div class="release-template__user-info userinfo">
-								<div class=" release-template__title template-title">
-									<a href="#" class=" release-template__title-link title-link">
-										E-commerce Shopping Cart
-									</a>
-								</div>
+							<div class="release-template__user-info">
+								<a href="#" class=" release-template__title-link">
+									E-commerce Shopping Cart
+								</a>
 
-								<div class=" release-template__user-name user-name">
-									<a href="#" class="release-template__user-name-link user-name-link">
-										<span class="release-template__user-icon user-icon"></span>
+								<div class="release-template__user-name">
+									<a href="#" class="release-template__link">
+										<img class="release-template__user-icon" src="images/content/user-icon-purple.jpg">
+										<span class="release-template__user-icon-text">user icon</span>
+										</img>
 										Theme-Valley
 									</a>
-									<a href="#" class=" release-template__platform user-platform">
-										<span class="release-template__icon-platform icon-platform"
-											style="background-image: url(images/icons/html.svg);"></span>
-										<span class="release-template__platform-name platform-name">Plugin</span>
+									<a href="#" class="release-template__platform">
+										<span class="release-template__icon" style="background-image: url(images/icons/html.svg);"></span>
+										<span class="release-template__platform-name">Plugin</span>
 									</a>
 								</div>
 
-								<div class=" release-template__descr description">
+								<div class=" release-template__descr">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 									the mattis, leo quam aliquet congue.
 								</div>
 							</div>
-							<div class="release-template__specs specs">
-								<div class="release-template__info info">
-									<div class="release-template__price price">
+							<div class="release-template__specs">
+								<div class="release-template__info">
+									<div class="release-template__price">
 										$10 - $50
 									</div>
-									<button href="#" class="release-template__button button btn button-heart">
+									<button href="#" class="release-template__button release-template__button--heart">
 										48
 									</button>
-									<button href="#" class="release-template__button button btn button-cart">
+									<button href="#" class="release-template__button release-template__button--cart">
 										50
 									</button>
 								</div>
 							</div>
 						</div>
 
-						<div class="release-template__item template-item mix category-plugin">
-							<div class="release-template__image template-image">
-								<a class="release-template__template-img template-picture" href="#"
-									style="background-image: url(images/content/template-bg.jpg);">
+						<div class="release-template__item mix category-plugin">
+							<div class="release-template__image">
+								<a class="release-template__template-img" href="#"
+									style="background-image: url(images/content/template-bg-green.jpg);">
 								</a>
-								<div class="release-template__links template-link">
-									<a class="release-template__imagelink-moreinfo image-link moreinfo" href="#">
+								<div class="release-template__links">
+									<a class="release-template__imagelink release-template__imagelink--moreinfo" href="#">
 										More Info</a>
-									<a class="release-template__imagelink-livedemo image-link livedemo" href="#">
+									<a class="release-template__imagelink release-template__imagelink--livedemo" href="#">
 										Live Demo</a>
 								</div>
 							</div>
-							<div class="release-template__user-info userinfo">
-								<div class=" release-template__title template-title">
-									<a href="#" class=" release-template__title-link title-link">
-										E-commerce Shopping Cart
-									</a>
-								</div>
+							<div class="release-template__user-info">
+								<a href="#" class=" release-template__title-link">
+									E-commerce Shopping Cart
+								</a>
 
-								<div class=" release-template__user-name user-name">
-									<a href="#" class="release-template__user-name-link user-name-link">
-										<span class="release-template__user-icon user-icon"></span>
+								<div class="release-template__user-name">
+									<a href="#" class="release-template__link">
+										<img class="release-template__user-icon" src="images/content/user-icon-purple.jpg">
+										<span class="release-template__user-icon-text">user icon</span>
+										</img>
 										Theme-Valley
 									</a>
-									<a href="#" class=" release-template__platform user-platform">
-										<span class="release-template__icon-platform icon-platform"
-											style="background-image: url(images/icons/html.svg);"></span>
-										<span class="release-template__platform-name platform-name">Plugin</span>
+									<a href="#" class="release-template__platform">
+										<span class="release-template__icon" style="background-image: url(images/icons/html.svg);"></span>
+										<span class="release-template__platform-name">Plugin</span>
 									</a>
 								</div>
 
-								<div class=" release-template__descr description">
+								<div class=" release-template__descr">
 									Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 									the mattis, leo quam aliquet congue.
 								</div>
 							</div>
-							<div class="release-template__specs specs">
-								<div class="release-template__info info">
-									<div class="release-template__price price">
+							<div class="release-template__specs">
+								<div class="release-template__info">
+									<div class="release-template__price">
 										$10
 									</div>
-									<button href="#" class="release-template__button button btn button-heart">
+									<button href="#" class="release-template__button release-template__button--heart">
 										56
 									</button>
 									<div class="release-template__star-rate star-rate"></div>
-									<button href="#" class="release-template__button button btn button-cart">
+									<button href="#" class="release-template__button release-template__button--cart">
 										68
 									</button>
 								</div>
@@ -672,9 +783,7 @@
 
 
 					</div>
-					<div class="products-release__link">
-						<a class="products-release__bottom-link main-link" href="#">All New Products</a>
-					</div>
+					<a class="products-release__bottom-link" href="#">All New Products</a>
 				</div>
 
 			</div>
@@ -683,318 +792,312 @@
 
 		<section class="followers-feed">
 			<div class="container">
-				<div class="followers-feed__title title">
+				<div class="followers-feed__title">
 					Your Followers Feed
 				</div>
 
 				<div class="followers-feed__slider">
 
-					<div class="followers-feed__item template-item">
-						<div class="followers-feed__image template-image">
-							<a class="followers-feed__template-img template-picture" href="#"
+					<div class="followers-feed__item">
+						<div class="followers-feed__image">
+							<a class="followers-feed__template-img" href="#"
 								style="background-image: url(images/content/template-bg.jpg);">
 							</a>
-							<div class="followers-feed__links template-link">
-								<a class="followers-feed__imagelink-moreinfo image-link moreinfo" href="#">
+							<div class="followers-feed__links">
+								<a class="followers-feed__imagelink followers-feed__imagelink--moreinfo" href="#">
 									More Info</a>
-								<a class="followers-feed__imagelink-livedemo image-link livedemo" href="#">
+								<a class="followers-feed__imagelink followers-feed__imagelink--livedemo" href="#">
 									Live Demo</a>
 							</div>
 						</div>
-						<div class="followers-feed__user-info userinfo">
-							<div class=" followers-feed__template-title template-title">
-								<a href="#" class=" followers-feed__user-title-link title-link">
-									E-commerce Shopping Cart
-								</a>
-							</div>
+						<div class="followers-feed__user-info">
+							<a href="#" class="followers-feed__title-link">
+								E-commerce Shopping Cart
+							</a>
 
-							<div class=" followers-feed__user-name user-name">
-								<a href="#" class="followers-feed__user-name-link user-name-link">
-									<span class="followers-feed__user-icon user-icon"></span>
+							<div class="followers-feed__user-name">
+								<a href="#" class="followers-feed__link">
+									<img class="followers-feed__user-icon" src="images/content/user-icon-purple.jpg">
+									<span class="followers-feed__user-icon-text">user icon</span>
+									</img>
 									Theme-Valley
 								</a>
-								<a href="#" class=" followers-feed__platform user-platform">
-									<span class="followers-feed__icon-platform icon-platform"
-										style="background-image: url(images/icons/html.svg);"></span>
-									<span class="followers-feed__platform-name platform-name">Plugin</span>
+								<a href="#" class="followers-feed__platform">
+									<span class="followers-feed__icon" style="background-image: url(images/icons/html.svg);"></span>
+									<span class="followers-feed__platform-name">Plugin</span>
 								</a>
 							</div>
 
-							<div class=" followers-feed__descr description">
+							<div class=" followers-feed__descr">
 								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 								the mattis, leo quam aliquet congue.
 							</div>
 						</div>
-						<div class="followers-feed__specs specs">
-							<div class="followers-feed__info info">
-								<div class="followers-feed__price price">
+						<div class="followers-feed__specs">
+							<div class="followers-feed__info">
+								<div class="followers-feed__price">
 									$10
 								</div>
-								<button href="#" class="followers-feed__button button btn button-heart">
+								<button href="#" class="followers-feed__button followers-feed__button--heart">
 									56
 								</button>
 								<div class="followers-feed__star-rate star-rate"></div>
-								<button href="#" class="followers-feed__button button btn button-cart">
+								<button href="#" class="followers-feed__button followers-feed__button--cart">
 									68
 								</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="followers-feed__item template-item">
-						<div class="followers-feed__image template-image">
-							<a class="followers-feed__template-img template-picture" href="#"
+					<div class="followers-feed__item ">
+						<div class="followers-feed__image">
+							<a class="followers-feed__template-img" href="#"
 								style="background-image: url(images/content/template-bg.jpg);">
 							</a>
-							<div class="followers-feed__links template-link">
-								<a class="followers-feed__imagelink-moreinfo image-link moreinfo" href="#">
+							<div class="followers-feed__links">
+								<a class="followers-feed__imagelink followers-feed__imagelink--moreinfo" href="#">
 									More Info</a>
-								<a class="followers-feed__imagelink-livedemo image-link livedemo" href="#">
+								<a class="followers-feed__imagelink followers-feed__imagelink--livedemo" href="#">
 									Live Demo</a>
 							</div>
 						</div>
-						<div class="followers-feed__user-info userinfo">
-							<div class=" followers-feed__template-title template-title">
-								<a href="#" class=" followers-feed__title-link title-link">
-									E-commerce Shopping Cart
-								</a>
-							</div>
+						<div class="followers-feed__user-info">
+							<a href="#" class=" followers-feed__title-link ">
+								E-commerce Shopping Cart
+							</a>
 
-							<div class=" followers-feed__user-name user-name">
-								<a href="#" class="followers-feed__user-name-link user-name-link">
-									<span class="followers-feed__user-icon user-icon"></span>
+							<div class="followers-feed__user-name">
+								<a href="#" class="followers-feed__link">
+									<img class="followers-feed__user-icon" src="images/content/user-icon-purple.jpg">
+									<span class="followers-feed__user-icon-text">user icon</span>
+									</img>
 									Theme-Valley
 								</a>
-								<a href="#" class=" followers-feed__platform user-platform">
-									<span class="followers-feed__icon-platform icon-platform"
-										style="background-image: url(images/icons/html.svg);"></span>
-									<span class="followers-feed__platform-name platform-name">Plugin</span>
+								<a href="#" class="followers-feed__platform">
+									<span class="followers-feed__icon" style="background-image: url(images/icons/html.svg);"></span>
+									<span class="followers-feed__platform-name">Plugin</span>
 								</a>
 							</div>
 
-							<div class=" followers-feed__descr description">
+							<div class=" followers-feed__descr">
 								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 								the mattis, leo quam aliquet congue.
 							</div>
 						</div>
-						<div class="followers-feed__specs specs">
-							<div class="followers-feed__info info">
-								<div class="followers-feed__price price">
+						<div class="followers-feed__specs">
+							<div class="followers-feed__info">
+								<div class="followers-feed__price">
 									$10
 								</div>
-								<button href="#" class="followers-feed__button button btn button-heart">
+								<button href="#" class="followers-feed__button followers-feed__button--heart">
 									56
 								</button>
 								<div class="followers-feed__star-rate star-rate"></div>
-								<button href="#" class="followers-feed__button button btn button-cart">
+								<button href="#" class="followers-feed__button followers-feed__button--cart">
 									68
 								</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="followers-feed__item template-item">
-						<div class="followers-feed__image template-image">
-							<a class="followers-feed__template-img template-picture" href="#"
+					<div class="followers-feed__item">
+						<div class="followers-feed__image">
+							<a class="followers-feed__template-img" href="#"
 								style="background-image: url(images/content/template-bg.jpg);">
 							</a>
-							<div class="followers-feed__links template-link">
-								<a class="followers-feed__imagelink-moreinfo image-link moreinfo" href="#">
+							<div class="followers-feed__links">
+								<a class="followers-feed__imagelink followers-feed__imagelink--moreinfo" href="#">
 									More Info</a>
-								<a class="followers-feed__imagelink-livedemo image-link livedemo" href="#">
+								<a class="followers-feed__imagelink followers-feed__imagelink--livedemo" href="#">
 									Live Demo</a>
 							</div>
 						</div>
-						<div class="followers-feed__user-info userinfo">
-							<div class=" followers-feed__template-title template-title">
-								<a href="#" class=" followers-feed__title-link title-link">
-									E-commerce Shopping Cart
-								</a>
-							</div>
+						<div class="followers-feed__user-info">
+							<a href="#" class=" followers-feed__title-link">
+								E-commerce Shopping Cart
+							</a>
 
-							<div class=" followers-feed__user-name user-name">
-								<a href="#" class="followers-feed__user-name-link user-name-link">
-									<span class="followers-feed__user-icon user-icon"></span>
+							<div class="followers-feed__user-name">
+								<a href="#" class="followers-feed__link">
+									<img class="followers-feed__user-icon" src="images/content/user-icon-purple.jpg">
+									<span class="followers-feed__user-icon-text">user icon</span>
+									</img>
 									Theme-Valley
 								</a>
-								<a href="#" class=" followers-feed__platform user-platform">
-									<span class="followers-feed__icon-platform icon-platform"
-										style="background-image: url(images/icons/html.svg);"></span>
-									<span class="followers-feed__platform-name platform-name">Plugin</span>
+								<a href="#" class="followers-feed__platform">
+									<span class="followers-feed__icon" style="background-image: url(images/icons/html.svg);"></span>
+									<span class="followers-feed__platform-name">Plugin</span>
 								</a>
 							</div>
 
-							<div class=" followers-feed__descr description">
+							<div class=" followers-feed__descr">
 								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 								the mattis, leo quam aliquet congue.
 							</div>
 						</div>
-						<div class="followers-feed__specs specs">
-							<div class="followers-feed__info info">
-								<div class="followers-feed__price price">
+						<div class="followers-feed__specs">
+							<div class="followers-feed__info">
+								<div class="followers-feed__price">
 									$10
 								</div>
-								<button href="#" class="followers-feed__button button btn button-heart">
+								<button href="#" class="followers-feed__button followers-feed__button--heart">
 									56
 								</button>
 								<div class="followers-feed__star-rate star-rate"></div>
-								<button href="#" class="followers-feed__button button btn button-cart">
+								<button href="#" class="followers-feed__button followers-feed__button--cart">
 									68
 								</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="followers-feed__item template-item">
-						<div class="followers-feed__image template-image">
-							<a class="followers-feed__template-img template-picture" href="#"
+					<div class="followers-feed__item">
+						<div class="followers-feed__image">
+							<a class="followers-feed__template-img" href="#"
 								style="background-image: url(images/content/template-bg.jpg);">
 							</a>
-							<div class="followers-feed__links template-link">
-								<a class="followers-feed__imagelink-moreinfo image-link moreinfo" href="#">
+							<div class="followers-feed__links">
+								<a class="followers-feed__imagelink followers-feed__imagelink--moreinfo" href="#">
 									More Info</a>
-								<a class="followers-feed__imagelink-livedemo image-link livedemo" href="#">
+								<a class="followers-feed__imagelink followers-feed__imagelink--livedemo" href="#">
 									Live Demo</a>
 							</div>
 						</div>
-						<div class="followers-feed__user-info userinfo">
-							<div class=" followers-feed__template-title template-title">
-								<a href="#" class=" followers-feed__title-link title-link">
-									E-commerce Shopping Cart
-								</a>
-							</div>
+						<div class="followers-feed__user-info">
+							<a href="#" class=" followers-feed__title-link">
+								E-commerce Shopping Cart
+							</a>
 
-							<div class=" followers-feed__user-name user-name">
-								<a href="#" class="followers-feed__user-name-link user-name-link">
-									<span class="followers-feed__user-icon user-icon"></span>
+							<div class="followers-feed__user-name">
+								<a href="#" class="followers-feed__link">
+									<img class="followers-feed__user-icon" src="images/content/user-icon-purple.jpg">
+									<span class="followers-feed__user-icon-text">user icon</span>
+									</img>
 									Theme-Valley
 								</a>
-								<a href="#" class=" followers-feed__platform user-platform">
-									<span class="followers-feed__icon-platform icon-platform"
-										style="background-image: url(images/icons/html.svg);"></span>
-									<span class="followers-feed__platform-name platform-name">Plugin</span>
+								<a href="#" class="followers-feed__platform">
+									<span class="followers-feed__icon" style="background-image: url(images/icons/html.svg);"></span>
+									<span class="followers-feed__platform-name">Plugin</span>
 								</a>
 							</div>
 
-							<div class=" followers-feed__descr description">
+							<div class=" followers-feed__descr">
 								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 								the mattis, leo quam aliquet congue.
 							</div>
 						</div>
-						<div class="followers-feed__specs specs">
-							<div class="followers-feed__info info">
-								<div class="followers-feed__price price">
+						<div class="followers-feed__specs">
+							<div class="followers-feed__info">
+								<div class="followers-feed__price">
 									$10
 								</div>
-								<button href="#" class="followers-feed__button button btn button-heart">
+								<button href="#" class="followers-feed__button followers-feed__button--heart">
 									56
 								</button>
 								<div class="followers-feed__star-rate star-rate"></div>
-								<button href="#" class="followers-feed__button button btn button-cart">
+								<button href="#" class="followers-feed__button followers-feed__button--cart">
 									68
 								</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="followers-feed__item template-item">
-						<div class="followers-feed__image template-image">
-							<a class="followers-feed__template-img template-picture" href="#"
+					<div class="followers-feed__item">
+						<div class="followers-feed__image">
+							<a class="followers-feed__template-img" href="#"
 								style="background-image: url(images/content/template-bg.jpg);">
 							</a>
-							<div class="followers-feed__links template-link">
-								<a class="followers-feed__imagelink-moreinfo image-link moreinfo" href="#">
+							<div class="followers-feed__links">
+								<a class="followers-feed__imagelink followers-feed__imagelink--moreinfo" href="#">
 									More Info</a>
-								<a class="followers-feed__imagelink-livedemo image-link livedemo" href="#">
+								<a class="followers-feed__imagelink followers-feed__imagelink--livedemo" href="#">
 									Live Demo</a>
 							</div>
 						</div>
-						<div class="followers-feed__user-info userinfo">
-							<div class=" followers-feed__template-title template-title">
-								<a href="#" class=" followers-feed__title-link title-link">
-									E-commerce Shopping Cart
-								</a>
-							</div>
+						<div class="followers-feed__user-info">
+							<a href="#" class=" followers-feed__title-link">
+								E-commerce Shopping Cart
+							</a>
 
-							<div class=" followers-feed__user-name user-name">
-								<a href="#" class="followers-feed__user-name-link user-name-link">
-									<span class="followers-feed__user-icon user-icon"></span>
+							<div class="followers-feed__user-name">
+								<a href="#" class="followers-feed__link">
+									<img class="followers-feed__user-icon" src="images/content/user-icon-purple.jpg">
+									<span class="followers-feed__user-icon-text">user icon</span>
+									</img>
 									Theme-Valley
 								</a>
-								<a href="#" class=" followers-feed__platform user-platform">
-									<span class="followers-feed__icon-platform icon-platform"
-										style="background-image: url(images/icons/html.svg);"></span>
-									<span class="followers-feed__platform-name platform-name">Plugin</span>
+								<a href="#" class="followers-feed__platform">
+									<span class="followers-feed__icon" style="background-image: url(images/icons/html.svg);"></span>
+									<span class="followers-feed__platform-name">Plugin</span>
 								</a>
 							</div>
 
-							<div class=" followers-feed__descr description">
+							<div class=" followers-feed__descr">
 								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 								the mattis, leo quam aliquet congue.
 							</div>
 						</div>
-						<div class="followers-feed__specs specs">
-							<div class="followers-feed__info info">
-								<div class="followers-feed__price price">
+						<div class="followers-feed__specs">
+							<div class="followers-feed__info">
+								<div class="followers-feed__price">
 									$10
 								</div>
-								<button href="#" class="followers-feed__button button btn button-heart">
+								<button href="#" class="followers-feed__button followers-feed__button--heart">
 									56
 								</button>
 								<div class="followers-feed__star-rate star-rate"></div>
-								<button href="#" class="followers-feed__button button btn button-cart">
+								<button href="#" class="followers-feed__button followers-feed__button--cart">
 									68
 								</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="followers-feed__item template-item">
-						<div class="followers-feed__image template-image">
-							<a class="followers-feed__template-img template-picture" href="#"
+					<div class="followers-feed__item">
+						<div class="followers-feed__image">
+							<a class="followers-feed__template-img" href="#"
 								style="background-image: url(images/content/template-bg.jpg);">
 							</a>
-							<div class="followers-feed__links template-link">
-								<a class="followers-feed__imagelink-moreinfo image-link moreinfo" href="#">
+							<div class="followers-feed__links">
+								<a class="followers-feed__imagelink followers-feed__imagelink--moreinfo" href="#">
 									More Info</a>
-								<a class="followers-feed__imagelink-livedemo image-link livedemo" href="#">
+								<a class="followers-feed__imagelink followers-feed__imagelink--livedemo" href="#">
 									Live Demo</a>
 							</div>
 						</div>
-						<div class="followers-feed__user-info userinfo">
-							<div class=" followers-feed__template-title template-title">
-								<a href="#" class=" followers-feed__title-link title-link">
-									E-commerce Shopping Cart
-								</a>
-							</div>
+						<div class="followers-feed__user-info">
+							<a href="#" class=" followers-feed__title-link">
+								E-commerce Shopping Cart
+							</a>
 
-							<div class=" followers-feed__user-name user-name">
-								<a href="#" class="followers-feed__user-name-link user-name-link">
-									<span class="followers-feed__user-icon user-icon"></span>
+							<div class="followers-feed__user-name">
+								<a href="#" class="followers-feed__link">
+									<img class="followers-feed__user-icon" src="images/content/user-icon-purple.jpg">
+									<span class="followers-feed__user-icon-text">user icon</span>
+									</img>
 									Theme-Valley
 								</a>
-								<a href="#" class=" followers-feed__platform user-platform">
-									<span class="followers-feed__icon-platform icon-platform"
-										style="background-image: url(images/icons/html.svg);"></span>
-									<span class="followers-feed__platform-name platform-name">Plugin</span>
+								<a href="#" class="followers-feed__platform">
+									<span class="followers-feed__icon" style="background-image: url(images/icons/html.svg);"></span>
+									<span class="followers-feed__platform-name">Plugin</span>
 								</a>
 							</div>
 
-							<div class=" followers-feed__descr description">
+							<div class=" followers-feed__descr">
 								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 								the mattis, leo quam aliquet congue.
 							</div>
 						</div>
-						<div class="followers-feed__specs specs">
-							<div class="followers-feed__info info">
-								<div class="followers-feed__price price">
+						<div class="followers-feed__specs">
+							<div class="followers-feed__info">
+								<div class="followers-feed__price">
 									$10
 								</div>
-								<button href="#" class="followers-feed__button button btn button-heart">
+								<button href="#" class="followers-feed__button followers-feed__button--heart">
 									56
 								</button>
 								<div class="followers-feed__star-rate star-rate"></div>
-								<button href="#" class="followers-feed__button button btn button-cart">
+								<button href="#" class="followers-feed__button followers-feed__button--cart">
 									68
 								</button>
 							</div>
@@ -1012,28 +1115,28 @@
 
 					<div class="stats__items">
 
-						<div class="stats__itemsforsale column">
-							<div class="stats__itemsforsale-img stats-image" style="background-image: url();">item image</div>
-							<div class="stats__itemsforsale-amount stats-amount">38,436</div>
-							<div class="stats__itemsforsale-text stats-text">items for sale</div>
+						<div class="stats__item stats__item--forsale">
+							<div class="stats__img stats__img--forsale">item image</div>
+							<div class="stats__amount stats__amount--forsale">38,436</div>
+							<div class="stats__text stats__text--forsale">items for sale</div>
 						</div>
 
-						<div class="stats__totalsale column">
-							<div class="stats__totalsale-img stats-image" style="background-image: url();">item image</div>
-							<div class="stats__totalsale-amount stats-amount">3,736</div>
-							<div class="stats__totalsale-text stats-text">total sales</div>
+						<div class="stats__item stats__item--totalsale">
+							<div class="stats__img stats__img--totalsale">item image</div>
+							<div class="stats__amount stats__amount--totalsale">3,736</div>
+							<div class="stats__text stats__text--totalsale">total sales</div>
 						</div>
 
-						<div class="stats__customers column">
-							<div class="stats__customers-img stats-image" style="background-image: url();">item image</div>
-							<div class="stats__customers-amount stats-amount">2,736</div>
-							<div class="stats__itemsforsale-text stats-text">happy customers</div>
+						<div class="stats__item stats__item--customers">
+							<div class="stats__img stats__img--customers">item image</div>
+							<div class="stats__amount stats__amount--customers">2,736</div>
+							<div class="stats__text stats__text--customers">happy customers</div>
 						</div>
 
-						<div class="stats__members column">
-							<div class="stats__members-img stats-image" style="background-image: url();">item image</div>
-							<div class="stats__members-amount stats-amount">25,736</div>
-							<div class="stats__members-text stats-text">members</div>
+						<div class="stats__item stats__item--members">
+							<div class="stats__img stats__img--members">item image</div>
+							<div class="stats__amount stats__amount--members">25,736</div>
+							<div class="stats__text stats__text--members">members</div>
 						</div>
 
 					</div>
@@ -1047,74 +1150,75 @@
 					<div class="profit__title">
 						Why Choose <a class="profit__martplace-link" href="#">MartPlace</a>
 					</div>
-					<div class="profit__text item-text">
+					<div class="profit__text">
 						Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est
 						laborum dolo rumes fugats untras.
 					</div>
 				</div>
 
 				<div class="profit__wrapper">
-					<a class="profit__payment-item item" href="#">
-						<div class="profit__item-number">01</div>
-						<div class="profit__item-icon profit__item-icon-payment" style="background-image: url();">profit item icon
+
+					<a class="profit__payment" href="#">
+						<div class="profit__number">01</div>
+						<div class="profit__icon profit__icon--payment" style="background-image: url();">profit item icon
 						</div>
-						<div class="profit__item-title item-title">One Time Payment</div>
-						<div class="profit__item-text item-text">
+						<div class="profit__item-title">One Time Payment</div>
+						<div class="profit__text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
 						</div>
 					</a>
-					<a class="profit__payment-item item" href="#">
-						<div class="profit__item-number">02</div>
-						<div class="profit__item-icon profit__item-icon-quality" style="background-image: url();">profit item icon
+					<a class="profit__payment" href="#">
+						<div class="profit__number">02</div>
+						<div class="profit__icon profit__icon--quality" style="background-image: url();">profit item icon
 						</div>
-						<div class="profit__item-title item-title">Quality Products</div>
-						<div class="profit__item-text item-text">
+						<div class="profit__item-title">Quality Products</div>
+						<div class="profit__text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
 						</div>
 					</a>
-					<a class="profit__payment-item item" href="#">
-						<div class="profit__item-number">03</div>
-						<div class="profit__item-icon profit__item-icon-secure" style="background-image: url();">profit item icon
+					<a class="profit__payment" href="#">
+						<div class="profit__number">03</div>
+						<div class="profit__icon profit__icon--secure" style="background-image: url();">profit item icon
 						</div>
-						<div class="profit__item-title item-title">100% Secure Payment</div>
-						<div class="profit__item-text item-text">
+						<div class="profit__item-title">100% Secure Payment</div>
+						<div class="profit__text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
 						</div>
 					</a>
-					<a class="profit__payment-item item" href="#">
-						<div class="profit__item-number">04</div>
-						<div class="profit__item-icon profit__item-icon-code" style="background-image: url();">profit item icon
+					<a class="profit__payment" href="#">
+						<div class="profit__number">04</div>
+						<div class="profit__icon profit__icon--code" style="background-image: url();">profit item icon
 						</div>
-						<div class="profit__item-title item-title">Well Organized Code</div>
-						<div class="profit__item-text item-text">
+						<div class="profit__item-title">Well Organized Code</div>
+						<div class="profit__text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
 						</div>
 					</a>
-					<a class="profit__payment-item item" href="#">
-						<div class="profit__item-number">05</div>
-						<div class="profit__item-icon profit__item-icon-update" style="background-image: url();">profit item icon
+					<a class="profit__payment" href="#">
+						<div class="profit__number">05</div>
+						<div class="profit__icon profit__icon--update" style="background-image: url();">profit item icon
 						</div>
-						<div class="profit__item-title item-title">Life Time Free Update</div>
-						<div class="profit__item-text item-text">
+						<div class="profit__item-title">Life Time Free Update</div>
+						<div class="profit__text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
 						</div>
 					</a>
-					<a class="profit__payment-item item" href="#">
-						<div class="profit__item-number">06</div>
-						<div class="profit__item-icon profit__item-icon-support" style="background-image: url();">profit item icon
+					<a class="profit__payment" href="#">
+						<div class="profit__number">06</div>
+						<div class="profit__icon profit__icon--support" style="background-image: url();">profit item icon
 						</div>
-						<div class="profit__item-title item-title">Fast and Friendly Support</div>
-						<div class="profit__item-text item-text">
+						<div class="profit__item-title">Fast and Friendly Support</div>
+						<div class="profit__text">
 							Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
 							the mattis, leo quam aliquet diam
 							congue is laoreet elit metus.
@@ -1128,7 +1232,7 @@
 			<div class="container-fluid">
 				<div class="assignment__inner">
 
-					<div class="assignment__selling assignment__item"
+					<div class="assignment__item assignment__item--selling"
 						style="background-image: url(images/content/selling-bg.jpg);">
 						<div class="assignment__selling-icon assignment__icon"
 							style="background-image: url(images/icons/selling-icon.svg);">selling icon</div>
@@ -1136,10 +1240,10 @@
 						<div class="assignment__text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
 							scelerisque
 							the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
-						<a class="assignment__link main-link" href="#">Become an Author</a>
+						<a class="assignment__link assignment__link--author" href="#">Become an Author</a>
 					</div>
 
-					<div class="assignment__shopping assignment__item"
+					<div class="assignment__item assignment__item--shopping"
 						style="background-image: url(images/content/shopping-bg.jpg);">
 						<div class="assignment__shopping-icon assignment__icon"
 							style="background-image: url(images/icons/shooping-icon.svg);">selling icon</div>
@@ -1147,7 +1251,7 @@
 						<div class="assignment__text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
 							scelerisque
 							the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
-						<a class="assignment__link assignment__link-shopping main-link" href="#">Start Shopping</a>
+						<a class="assignment__link assignment__link--shopping" href="#">Start Shopping</a>
 					</div>
 
 				</div>
@@ -1179,7 +1283,8 @@
 									<div class="feedback__user-occupation">Product Designer</div>
 								</div>
 							</div>
-							<div class="feedback__description">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+							<div class="feedback__description">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
 								scelerisque the mattis, leo quam aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id
 								nisi interdum is mollis. Praesent the pharetra, justo ut scelerisque.
 							</div>
@@ -1198,7 +1303,8 @@
 									<div class="feedback__user-occupation">Product Designer</div>
 								</div>
 							</div>
-							<div class="feedback__description">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+							<div class="feedback__description">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
 								scelerisque the mattis, leo quam aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id
 								nisi interdum is mollis. Praesent the pharetra, justo ut scelerisque.
 							</div>
@@ -1207,10 +1313,285 @@
 				</div>
 
 				<div class="feedback__link">
-					<a class="feedback__viewall-link main-link" href="#">View All Reviews</a>
+					<a class="feedback__viewall-link" href="#">View All Reviews</a>
 				</div>
 			</div>
 		</section>
+
+		<section class="news">
+			<div class="container">
+				<div class="news__inner">
+					<div class="news__title">
+						Latest
+						<a class="profit__martplace-link" href="#">
+							News
+						</a>
+					</div>
+					<div class="news__text">
+						Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est
+						laborum dolo rumes fugats untras.
+					</div>
+				</div>
+				<div class="news__items">
+
+					<div class="news__item">
+						<div class="news__image">
+							<a class="news__template-img" href="#" style="background-image: url(images/content/news-item-bg1.jpg);">
+							</a>
+						</div>
+						<div class="news__user-info">
+							<a href="#" class="news__title-link">
+								Web Design Trends in 2017
+							</a>
+							<div class="news__descr">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+								the mattis, leo quam aliquet congue.
+							</div>
+						</div>
+
+						<div class="news__specs">
+							<time class="news__time">
+								24 Feb 2017
+							</time>
+							<button href="#" class="news__button news__button--comments">
+								45
+							</button>
+							<button href="#" class="news__button news__button--views">
+								345
+							</button>
+						</div>
+					</div>
+
+					<div class="news__item">
+						<div class="news__image">
+							<a class="news__template-img" href="#" style="background-image: url(images/content/news-item-bg1.jpg);">
+							</a>
+						</div>
+						<div class="news__user-info">
+							<a href="#" class=" news__title-link">
+								The best advices to start your
+								own project
+							</a>
+							<div class="news__descr">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+								the mattis, leo quam aliquet congue.
+							</div>
+						</div>
+
+						<div class="news__specs">
+							<time class="news__time">
+								24 Feb 2017
+							</time>
+							<button href="#" class="news__button news_button--comments">
+								45
+							</button>
+							<button href="#" class="news__button news__button--views">
+								345
+							</button>
+						</div>
+					</div>
+
+					<div class="news__item">
+						<div class="news__image">
+							<a class="news__template-img" href="#" style="background-image: url(images/content/news-item-bg1.jpg);">
+							</a>
+						</div>
+						<div class="news__user-info">
+							<a href="#" class="news__title-link">
+								Web Design Trends in 2017
+							</a>
+							<div class=" news__descr">
+								Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+								the mattis, leo quam aliquet congue.
+							</div>
+						</div>
+
+						<div class="news__specs">
+							<time class="news__time">
+								24 Feb 2017
+							</time>
+							<button href="#" class="news__button news__button--comments">
+								45
+							</button>
+							<button href="#" class="news__button news__button--views">
+								345
+							</button>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<section class="warranty">
+			<div class="warranty__inner">
+				<div class="warranty__item warranty__inner--guarantee">
+					<img class="warranty__icon warranty__icon-guarantee" src="images/icons/guarantee-bg.png" alt="guarantee icon">
+					<div class="warranty__text">30 Days Money Back
+						<span class="warranty__word warranty__word--guarantee">Guarantee</span>
+					</div>
+				</div>
+				<div class="warranty__item warranty__inner--support">
+					<img class="warranty__icon warranty__icon-support" src="images/icons/support-bg.png" alt="guarantee icon">
+					<div class="warranty__text">Fast and Friendly
+						<span class="warranty__word warranty__word--support">Support</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="join">
+			<div class="join__title">Ready to Join Our Marketplace!</div>
+			<div class="join__text">Over 25,000 designers and developers trust the MartPlace.</div>
+			<a class="join__link" href="#">Join Us Today</a>
+		</section>
+
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="footer__content">
+
+						<div class="footer__col footer__col--info">
+							<a class="footer__logo-link" href="#">
+								<img class="footer__logo" src="images/content/footer-logo.png" alt="footer logo">
+							</a>
+							<div class="footer__text">
+								Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque the mattis, leo
+								quam.
+							</div>
+							<a class="footer__contact footer__contact--phone" href="tel:+67898752235">
+								Phone: +6789-875-2235
+							</a>
+							<a class="footer__contact footer__contact--email" href="mailto:support@aazztech.com">
+								support@aazztech.com
+							</a>
+							<a class="footer__contact footer__contact--adress" href="#">
+								202 New Hampshire Avenue Northwest #100, New York-2573
+							</a>
+						</div>
+
+						<div class="footer__col footer__col--list ">
+							<div class="footer__col-title">
+								Our Company
+							</div>
+							<ul class="footer__list">
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">About Us</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">How It Work</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link"> Affiliates</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Testimonials</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Contact Us</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Copyright Notice</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Blog</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="footer__col footer__col--list-support">
+							<div class="footer__col-title">
+								Help Support
+							</div>
+							<ul class="footer__list">
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Support Forum</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Terms & Conditions</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Support Policy</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Refund Policy</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">FAQs</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Buyers Faq</a>
+								</li>
+								<li class="footer__list-item">
+									<a href="#" class="footer__link">Sellers Faq</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="footer__col footer__col--newsletter">
+							<div class="footer__col-title">
+								Newsletter
+							</div>
+							<div class="footer__text footer__text--newsletter">
+								Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!
+							</div>
+							<form class="footer__form">
+								<label class="footer__label">
+									<span class="footer__label-text">email form</span>
+									<input class="footer__input" type="email" placeholder="Enter email"></label>
+								<label class="footer__label">
+									<span class="footer__label-text">button submit</span>
+									<button class="footer__btn" type="submit">Submit</button></label>
+							</form>
+							<ul class="footer__social">
+								<li class="footer__social-item footer__social-item--fb">
+									<a href="#" class="footer__social-link footer__social-link--fb">
+									</a>
+								</li>
+								<li class="footer__social-item footer__social-item--tw">
+									<a href="#" class="footer__social-link footer__social-link--tw">
+									</a>
+								</li>
+								<li class="footer__social-item footer__social-item--google">
+									<a href="#" class="footer__social-link footer__social-link--google">
+									</a>
+								</li>
+								<li class="footer__social-item footer__social-item--pint">
+									<a href="#" class="footer__social-link footer__social-link--pint">
+									</a>
+								</li>
+								<li class="footer__social-item footer__social-item--in">
+									<a href="#" class="footer__social-link footer__social-link--in">
+									</a>
+								</li>
+								<li class="footer__social-item footer__social-item--dribble">
+									<a href="#" class="footer__social-link footer__social-link--dribble">
+									</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<div class="container-fluid">
+					<div class="footer__copy-content">
+						<div class="footer__copy-text">
+							©2017
+							<a class="footer__copy-link" href="#" class="">
+								MartPlace
+							</a>
+							. All rights reserved. Created by
+							<a class="footer__copy-link" href="#">
+								AazzTech
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 	</main>
 
