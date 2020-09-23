@@ -158,8 +158,16 @@
 	.dropmenu {
 		width: 100%;
 		text-align: center;
+		background-color: #fff;
 	}
-
+	.dropmenu--pages{
+		.dropmenu__col {
+			display: block;
+		}
+		.dropmenu__inner {
+			display: block;
+		}
+	}
 	.header {
 		.links {
 			display: none;

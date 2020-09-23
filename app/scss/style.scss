@@ -92,7 +92,13 @@
 						padding: 20px 24px;
 					}
 
+					&__link--msg {
+						padding-top: 20px;
+						padding-bottom: 20px;
+					}
+
 					&__item--notif {
+						transition: all .4;
 						max-width: 320px;
 					}
 				}
@@ -101,16 +107,16 @@
 				.dropmenu--user {
 					height: auto;
 					border-top: 1px solid #0674ec;
-					transform: translateX(0);
 					overflow: visible;
+				}
 
-					&__item--cart {
-						padding-left: 24px;
-						padding-right: 24px;
-						border-top: none;
-						padding-bottom: 24px;
-						margin-top: 27px;
-					}
+				.dropdown__item--cart {
+					padding-left: 24px;
+					padding-right: 24px;
+					border-top: none;
+					padding-bottom: 24px;
+					margin-top: 27px;
+					transition: all .4;
 				}
 			}
 		}
@@ -242,7 +248,6 @@
 		}
 
 		&__link {
-			display: inline;
 			position: relative;
 			height: 80px;
 			margin-right: 26px;
@@ -619,6 +624,7 @@
 	}
 
 	&__title--notif {
+		padding: 0 24px;
 		transition: all .4;
 	}
 
@@ -718,9 +724,10 @@
 		right: 243px;
 	}
 
-	&__link {
+	&__link--msg {
 		text-align: left;
-		padding: 20px 25px;
+		padding: 0 25px;
+		transition: all .4;
 	}
 
 	&__link-time--msg {
@@ -819,15 +826,12 @@
 		margin-right: 15px;
 	}
 
-	&__link {
-
-		&--cart {
-			padding: 0;
-			font-size: 16px;
-			line-height: 22px;
-			font-weight: 500;
-			color: #000;
-		}
+	&__link--cart {
+		padding: 0;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 500;
+		color: #000;
 	}
 
 	&__action--cart {
