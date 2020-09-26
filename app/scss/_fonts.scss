@@ -79,8 +79,8 @@
 
 [class^="icon-"]::before, [class*="icon-"]::before {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
+  font-family: 'icomoon';
+  // speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -93,6 +93,22 @@
 }
 
 
+
+.icon-grid:before {
+  content: "\e900";
+}
+.icon-apps:before {
+  content: "\e900";
+}
+.icon-squares:before {
+  content: "\e900";
+}
+.icon-blocks:before {
+  content: "\e900";
+}
+.icon-list:before {
+  content: "\e9ba";
+}
 .icon-twitter:before {
   content: "\f099";
 }
@@ -129,7 +145,7 @@
 
 [class^="lnr-"]::before, [class*="lnr-"]::before {
 	font-family: 'Linearicons-Free';
-	speak: none;
+	// speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;

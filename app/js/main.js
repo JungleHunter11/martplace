@@ -1,8 +1,8 @@
 $(function () {
 
 	$('.products-weekly__slider').slick({
-		prevArrow: '<button class="arrow product-card__arrow product-card__arrow-left"><img class="product-card__img-arrow-left" src="../images/icons/chevron-left.svg" alt=""></button>',
-		nextArrow: '<button class="arrow product-card__arrow product-card__arrow-right"><img class="product-card__img-arrow-right" src="../images/icons/chevron-right.svg" alt=""></button>',
+		prevArrow: '<button class="arrow product-card__arrow product-card__arrow-left product-card__arrow-left--purple"><img class="product-card__img-arrow-left" src="../images/icons/chevron-left.svg" alt=""></button>',
+		nextArrow: '<button class="arrow product-card__arrow product-card__arrow-right product-card__arrow-right--purple"><img class="product-card__img-arrow-right" src="../images/icons/chevron-right.svg" alt=""></button>',
 	});
 
 	$('.followers-feed__slider').slick({
@@ -38,13 +38,13 @@ $(function () {
 				}
 			}
 		],
-		prevArrow: '<button class="arrow followers-feed__arrow-left"><img class="product-card__img-arrow-left" src="../images/icons/chevron-left.svg" alt=""></button>',
-		nextArrow: '<button class="arrow followers-feed__arrow-right"><img class="product-card__img-arrow-right" src="../images/icons/chevron-right.svg" alt=""></button>'
+		prevArrow: '<button class="arrow product-card__arrow-left product-card__arrow-left--blue"><img class="product-card__img-arrow-left" src="../images/icons/chevron-left.svg" alt=""></button>',
+		nextArrow: '<button class="arrow product-card__arrow-right product-card__arrow-right--blue"><img class="product-card__img-arrow-right" src="../images/icons/chevron-right.svg" alt=""></button>'
 	});
 
 	
 
-	$('.rate-star').rateYo({
+	$('.rate-star--products-weekly').rateYo({
 		rating: 4.5,
 		starWidth: "15px",
 		spacing: "3px",
@@ -53,13 +53,22 @@ $(function () {
 
 
 
-	$('.star-rate').rateYo({
+	$('.rate-star--products-release').rateYo({
 		rating: 4,
 		starWidth: "13px",
 		spacing: "4px",
 		readOnly: false,
 		normalFill: "#ffc000",
 	});
+
+	$('.followers-feed__star-rate').rateYo({
+		rating: 4.5,
+		starWidth: "15px",
+		spacing: "3px",
+		readOnly: false,
+		// normalFill: "#ffc000",
+	});
+	
 
 	$('.menu-btn').on('click', function () {
 		$('.main-menu').slideToggle('500', 'linear');
@@ -101,9 +110,21 @@ $(function () {
 
 	});
 
-	
+	$('.aside__title').on('click', function(){
+		$(this).next('.aside-box__list').toggleClass('hidden');
+		$(this).next('.form-range').toggleClass('hidden');
+	});
 
-	var mixer = mixitup('.release-template');
+	$(".js-range-slider").ionRangeSlider({
+		type: "double",
+		min: 0,
+		max: 399,
+		from: 30,
+		to: 300,
+		prefix: '$'
+});
+
+	var mixer = mixitup('.products-release__inner');
 
 });
 
