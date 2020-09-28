@@ -22,6 +22,7 @@ body {
 
 .content {
 	flex: 1 0 auto;
+	overflow: hidden;
 }
 
 .footer {
@@ -168,13 +169,18 @@ body {
 	}
 }
 
-// all drop down menus
+// all drop down menus start
 
 .dropdown {
 	@extend %dropdown;
 	top: 100px;
-	height: 0;
+	z-index: -1;
+	transform-origin: top center;
+	transform: scaleY(0);
+	opacity: 0;
+	visibility: hidden;
 	overflow: hidden;
+
 
 	&::after {
 		content: '';
@@ -262,8 +268,19 @@ body {
 
 .dropmenu {
 	@extend %dropdown;
-	height: 0;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
 	overflow: hidden;
+	padding: 20px 21px;
+
+
+	&.is-open {
+		opacity: 1;
+		z-index: 999;
+		visibility: visible;
+		overflow: visible;
+	}
 
 	&__list {
 		margin: 0;
@@ -285,6 +302,8 @@ body {
 		text-decoration: none;
 	}
 }
+
+// all drop down menus end
 
 .jq-ry-group-wrapper {
 	z-index: 0;
@@ -620,6 +639,7 @@ body {
 	&--purple {
 		background-color: $purple;
 	}
+
 	&--blue {
 		background-color: $blue;
 	}
@@ -633,6 +653,7 @@ body {
 	&--purple {
 		background-color: $purple;
 	}
+
 	&--blue {
 		background-color: $blue;
 	}

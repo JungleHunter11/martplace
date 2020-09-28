@@ -19,17 +19,30 @@
 					<div class="container">
 						<div class="header__top-inner">
 
+							<div class="menu-btn">
+								<div class="menu-btn__line"></div>
+								<div class="menu-btn__line"></div>
+								<div class="menu-btn__line"></div>
+							</div>
+							<div class="user-btn">
+							</div>
+
 							<a class="logo-link" href="#">
 								<img class="logo-link__img" src="images/header-logo.png" alt="logo">
 							</a>
+							<form class="search-form search-form--hidden-media">
+								<label class="search-form__label">
+									<span class="search-form__text">search product here</span>
+									<input class="search-form__input" type="search" placeholder="Search product here...">
+								</label>
+								<button class="search-form__btn" type="submit">
+								</button>
+							</form>
 
 							<a class="join-link" href="#">
 								Become a Seller
 							</a>
 
-
-							<div class="user-btn">
-							</div>
 
 							<div class="links">
 
@@ -308,11 +321,11 @@
 									<li class="main-menu__item">
 										<a class="main-menu__link" href="#">
 											home
-											<button class="main-menu__arrow main-menu__arrow--home" type="submit">
-												<span class="main-menu__arrow main-menu__arrow--text">press to dropdown menu
-												</span>
-											</button>
 										</a>
+										<button class="main-menu__arrow main-menu__arrow--home" type="submit">
+											<span class="main-menu__text">press to dropdown menu
+											</span>
+										</button>
 										<!-- HOME MENU START  -->
 										<div class="dropmenu dropmenu--home">
 											<ul class="dropmenu__list">
@@ -332,12 +345,12 @@
 
 									<li class="main-menu__item">
 										<a class="main-menu__link" href="#">
-											all products
-											<button class="main-menu__arrow main-menu__arrow--allproducts" type="submit">
-												<span class="main-menu__arrow main-menu__arrow--text">press to dropdown menu
-												</span>
-											</button>
-										</a>
+											all products</a>
+										<button class="main-menu__arrow main-menu__arrow--allproducts" type="submit">
+											<span class="main-menu__text">press to dropdown menu
+											</span>
+										</button>
+
 										<!-- ALLPRODUCTS MENU START -->
 										<div class="dropmenu dropmenu--allproducts">
 											<ul class="dropmenu__list">
@@ -366,12 +379,12 @@
 
 									<li class="main-menu__item main-menu__item--home">
 										<a class="main-menu__link main-menu__link--wordpress" href="#">
-											wordpress
-											<button class="main-menu__arrow main-menu__arrow--wordpress" type="submit">
-												<span class="main-menu__arrow main-menu__arrow--text">press to dropdown menu
-												</span>
-											</button>
-										</a>
+											wordpress</a>
+										<button class="main-menu__arrow main-menu__arrow--wordpress" type="submit">
+											<span class="main-menu__text">press to dropdown menu
+											</span>
+										</button>
+
 										<!-- WORDPRESSMENU START  -->
 										<div class="dropmenu dropmenu--wordpress">
 											<ul class="dropmenu__list">
@@ -406,7 +419,6 @@
 										</div>
 										<!-- WORDPRESS MENU END  -->
 									</li>
-
 									<li class="main-menu__item">
 										<a class="main-menu__link" href="#">
 											gestures
@@ -415,96 +427,108 @@
 
 									<li class="main-menu__item">
 										<a class="main-menu__link main-menu__link--pages" href="#">
-											Pages
-											<button class="main-menu__arrow main-menu__arrow--pages" type="submit">
-												<span class="main-menu__arrow main-menu__arrow--text">press to dropdown menu
-												</span>
-											</button>
-										</a>
+											Pages</a>
+										<button class="main-menu__arrow main-menu__arrow--pages" type="submit">
+											<span class="main-menu__text">press to dropdown menu
+											</span>
+										</button>
+
 										<!-- PAGES MENU START -->
-										<div class="dropmenu dropmenu--pages">
-											<div class="dropmenu__col dropmenu__col--martplace">
-												<div class="dropmenu__title dropmenu__title--pages dropmenu__title--martplace">
-													MartPlace Pages
+										<ul class="dropmenu dropmenu--pages">
+
+											<li class="dropmenu__col dropmenu__col--martplace">
+												<div class="dropmenu__title dropmenu__title--martplace">
+													<span class="dropmenu__title--pages">
+														MartPlace Pages
+														<button class="main-menu__arrow" type="submit">
+															<span class="main-menu__text">press to dropdown menu
+															</span>
+														</button>
+													</span>
 												</div>
 												<div class="dropmenu__inner dropmenu__inner--wide dropmenu__inner--martplace">
-													<div class="dropmenu__list-box">
-														<ul class="dropmenu__list dropmenu__list--pages  dropmenu__list--left">
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page One</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page One</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page Three</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Products Grid</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Products List</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Category Grid Sidebar</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Category List Sidebar</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Search Product</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-1</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-2</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-3</a>
-															</li>
-														</ul>
-														<ul class="dropmenu__list dropmenu__list--pages">
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items comments</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items Reviews</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items Support</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Favorites Items</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Author Profile</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Author Items</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Customer Reviews</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Followers</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Following</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Product View Variations</a>
-															</li>
-														</ul>
-													</div>
+													<ul class="dropmenu__list dropmenu__list--pages  dropmenu__list--left">
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page One</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page One</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page Three</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Products Grid</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Products List</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Category Grid Sidebar</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Category List Sidebar</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Search Product</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-1</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-2</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-3</a>
+														</li>
+													</ul>
+													<ul class="dropmenu__list dropmenu__list--pages">
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items comments</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items Reviews</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items Support</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Favorites Items</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Author Profile</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Author Items</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Customer Reviews</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Followers</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Following</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Product View Variations</a>
+														</li>
+													</ul>
 												</div>
-											</div>
-											<div class="dropmenu__col dropmenu__col--dashboard">
-												<div class="dropmenu__title dropmenu__title--pages dropmenu__title--dashboard">
-													Dashboard
+											</li>
+
+											<li class="dropmenu__col dropmenu__col--dashboard">
+												<div class="dropmenu__title  dropmenu__title--dashboard">
+													<span class="dropmenu__title--pages">
+														Dashboard
+														<button class="main-menu__arrow" type="submit">
+															<span class="main-menu__text">press to dropdown menu
+															</span>
+														</button>
+													</span>
 												</div>
 												<div class="dropmenu__inner dropmenu__inner--dashboard">
 													<ul class="dropmenu__list dropmenu__list--pages">
@@ -543,90 +567,96 @@
 														</li>
 													</ul>
 												</div>
-											</div>
-											<div class="dropmenu__col dropmenu__col--others">
-												<div class="dropmenu__title dropmenu__title--pages dropmenu__title--others">
-													Others Pages
+											</li>
+
+											<li class="dropmenu__col dropmenu__col--others">
+												<div class="dropmenu__title dropmenu__title--others">
+													<span class="dropmenu__title--pages">
+														Others Pages
+														<button class="main-menu__arrow" type="submit">
+															<span class="main-menu__text">press to dropdown menu
+															</span>
+														</button>
+													</span>
 												</div>
 												<div class="dropmenu__inner dropmenu__inner--wide dropmenu__inner--others">
-													<div class="dropmenu__list-box">
-														<ul class="dropmenu__list dropmenu__list--pages dropmenu__list--left">
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Notifications</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Message Inbox</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Message Compose</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Shopping Cart</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Checkout</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Login</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Register</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Recovery Password</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Support Forum</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Forum Details</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">How It Works</a>
-															</li>
-														</ul>
-														<ul class="dropmenu__list dropmenu__list--pages">
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">About Us</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages" wp-menu__link>
-																<a class="dropmenu__link dropmenu__link--pages" href="">Pricing Plan</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Testimonials</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">FAQs</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">FAQs Details</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Affiliates</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Terms & Conditions</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Blog V-1</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Blog V-2</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Blog Details</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Contact Us</a>
-															</li>
-															<li class="dropmenu__item dropmenu__item--pages">
-																<a class="dropmenu__link dropmenu__link--pages" href="#">Menu & Footer Variation</a>
-															</li>
-														</ul>
-													</div>
+													<ul class="dropmenu__list dropmenu__list--pages dropmenu__list--left">
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Notifications</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Message Inbox</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Message Compose</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Shopping Cart</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Checkout</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Login</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Register</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Recovery Password</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Support Forum</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Forum Details</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">How It Works</a>
+														</li>
+													</ul>
+													<ul class="dropmenu__list dropmenu__list--pages">
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">About Us</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages" wp-menu__link>
+															<a class="dropmenu__link dropmenu__link--pages" href="">Pricing Plan</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Testimonials</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">FAQs</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">FAQs Details</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Affiliates</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Terms & Conditions</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Blog V-1</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Blog V-2</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Blog Details</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Contact Us</a>
+														</li>
+														<li class="dropmenu__item dropmenu__item--pages">
+															<a class="dropmenu__link dropmenu__link--pages" href="#">Menu & Footer Variation</a>
+														</li>
+													</ul>
 												</div>
-											</div>
-										</div>
+											</li>
+
+										</ul>
 										<!-- PAGES MENU END -->
 									</li>
 
@@ -644,11 +674,8 @@
 
 						</div>
 
-						<div class="menu-btn">
-							<div class="menu-btn__line"></div>
-							<div class="menu-btn__line"></div>
-							<div class="menu-btn__line"></div>
-						</div>
+
+
 					</div>
 				</div>
 			</header>
@@ -771,13 +798,13 @@
 											<a class="product-card__user-name" href="#">
 												<img class="product-card__user-icon" src="images/content/user-icon.jpg"
 													style="background-image: url();">
-													<span class="product-card__user-icon-text">user icon</span>
+												<span class="product-card__user-icon-text">user icon</span>
 												AazzTech
 											</a>
 
 											<a class="product-card__platform" href="#">
 												<img class="product-card__platform-icon" src="images/icons/wordpress-icon.svg">
-													<span class="product-card__platform-icon-text">platform icon </span>
+												<span class="product-card__platform-icon-text">platform icon </span>
 												WordPress
 											</a>
 										</div>
@@ -1049,7 +1076,8 @@
 											Theme-Valley
 										</a>
 										<a href="#" class="product-card__platform">
-											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg"
+												alt="category icon">
 											Plugin
 										</a>
 									</div>
@@ -1106,7 +1134,8 @@
 											EchoTheme
 										</a>
 										<a href="#" class="product-card__platform product-card__platform--uppercase">
-											<img class="product-card__platform-icon" src="images/icons/product-release-psd.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/product-release-psd.svg"
+												alt="category icon">
 											PSD
 										</a>
 									</div>
@@ -1162,7 +1191,8 @@
 											Artcorner
 										</a>
 										<a href="#" class="product-card__platform product-card__platform--uppercase">
-											<img class="product-card__platform-icon" src="images/icons/html-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/html-category-icon.svg"
+												alt="category icon">
 											HTML
 										</a>
 									</div>
@@ -1218,7 +1248,8 @@
 											Theme-Valley
 										</a>
 										<a href="#" class="product-card__platform">
-											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg"
+												alt="category icon">
 											Plugin
 										</a>
 									</div>
@@ -1275,7 +1306,8 @@
 											AazzTech
 										</a>
 										<a href="#" class="product-card__platform product-card__platform--uppercase">
-											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg"
+												alt="category icon">
 											psd
 										</a>
 									</div>
@@ -1402,7 +1434,8 @@
 											Theme-Valley
 										</a>
 										<a href="#" class="product-card__platform">
-											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg"
+												alt="category icon">
 											Plugin
 										</a>
 									</div>
@@ -1459,7 +1492,8 @@
 											EchoTheme
 										</a>
 										<a href="#" class="product-card__platform product-card__platform--uppercase">
-											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg"
+												alt="category icon">
 											psd
 										</a>
 									</div>
@@ -1515,7 +1549,8 @@
 											Artcorner
 										</a>
 										<a href="#" class="product-card__platform product-card__platform--uppercase">
-											<img class="product-card__platform-icon" src="images/icons/html-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/html-category-icon.svg"
+												alt="category icon">
 											HTML
 										</a>
 									</div>
@@ -1572,7 +1607,8 @@
 											Theme-Valley
 										</a>
 										<a href="#" class="product-card__platform">
-											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg"
+												alt="category icon">
 											Plugin
 										</a>
 									</div>
@@ -1629,7 +1665,8 @@
 											EchoTheme
 										</a>
 										<a href="#" class="product-card__platform product-card__platform--uppercase">
-											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/wordpress-category-icon.svg"
+												alt="category icon">
 											psd
 										</a>
 									</div>
@@ -1685,7 +1722,8 @@
 											Artcorner
 										</a>
 										<a href="#" class="product-card__platform product-card__platform--uppercase">
-											<img class="product-card__platform-icon" src="images/icons/html-category-icon.svg" alt="category icon">
+											<img class="product-card__platform-icon" src="images/icons/html-category-icon.svg"
+												alt="category icon">
 											HTML
 										</a>
 									</div>
@@ -1850,8 +1888,9 @@
 							style="background-image: url(images/content/selling-bg.jpg);">
 							<img class="assignment__icon--selling assignment__icon" src="images/icons/selling-icon.svg"><span
 								class="assignment__icon-text">selling icon</span></img>
-							<div class="assignment__title">Sell Your Products</div>
-							<div class="assignment__text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+							<div class="assignment__title assignment__title--selling">Sell Your Products</div>
+							<div class="assignment__text assignment__text--selling">Nunc placerat mi id nisi interdum mollis. Praesent
+								pharetra, justo ut
 								scelerisque
 								the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
 							<a class="assignment__main-link assignment__main-link--author btn" href="#">Become an Author</a>
@@ -1861,8 +1900,9 @@
 							style="background-image: url(images/content/shopping-bg.jpg);">
 							<img class="assignment__icon--shopping assignment__icon" src="images/icons/shooping-icon.svg"><span
 								class="assignment__icon-text">shopping icon</span></img>
-							<div class="assignment__title">Start Shopping Today</div>
-							<div class="assignment__text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+							<div class="assignment__title assignment__title--shopping">Start Shopping Today</div>
+							<div class="assignment__text assignment__text--shopping">Nunc placerat mi id nisi interdum mollis.
+								Praesent pharetra, justo ut
 								scelerisque
 								the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
 							<a class="assignment__main-link assignment__main-link--shopping btn" href="#">Start Shopping</a>
@@ -1874,10 +1914,11 @@
 				<section class="feedback">
 					<div class="container">
 						<div class="feedback__inner">
-							<div class="feedback__title">
-								Our Clients <a class="feedback__link" href="#">Feedback</a>
+							<div class="feedback__title title-double">
+								Our Clients <a class="title-double__link" href="#">Feedback</a>
 							</div>
-							<div class="feedback__text">Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores
+							<div class="title-double__text">Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis
+								dolores
 								nemis
 								omnis fugats. Lid est laborum dolo rumes fugats untras.
 							</div>
@@ -1920,7 +1961,7 @@
 
 						</div>
 
-						<div class="feedback__link">
+						<div class="feedback__bottom-link-wrapper">
 							<a class="feedback__main-link btn" href="#">View All Reviews</a>
 						</div>
 					</div>
@@ -1929,106 +1970,155 @@
 				<section class="news">
 					<div class="container">
 						<div class="news__inner">
-							<div class="news__title">
+							<div class="news__title title-double title-double--news">
 								Latest
-								<a class="profit__martplace-link" href="#">
+								<a class="profit__martplace-link title-double__link" href="#">
 									News
 								</a>
 							</div>
-							<div class="news__text">
+							<div class="title-double__text title-double__text--news">
 								Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est
 								laborum dolo rumes fugats untras.
 							</div>
 						</div>
 						<div class="news__items">
 
-							<div class="news__item">
-								<div class="news__image">
-									<a class="news__template-img" href="#"
-										style="background-image: url(images/content/news-item-bg1.jpg);">
-									</a>
+							<article class="product-card product-card--followers product-card--small product-card--news">
+
+								<div class="product-card__image product-card__image--news product-card__image--products-release "
+									style="background-image: url(images/content/news-item-image1.jpg)">
 								</div>
-								<div class="news__user-info">
-									<a href="#" class="news__title-link">
+								<div class="product-card__user-info news__card-title">
+									<a href="#" class="product-card__title-link news__title-link product-card__title-link--news">
 										Web Design Trends in 2017
 									</a>
-									<div class="news__descr">
-										Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-										the mattis, leo quam aliquet congue.
+
+
+									<div class="product-card__descr product-card__descr--news">
+										Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+										leo
+										quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.
+									</div>
+
+									<div class="news__specs">
+										<time class="news__time">
+											24 Feb 2017
+										</time>
+										<a href="#" class="news__link news__link--comments">
+											45
+										</a>
+										<a href="#" class="news__link news__link--views">
+											345
+										</a>
 									</div>
 								</div>
+							</article>
+							<article class="product-card product-card--followers product-card--small product-card--news">
 
-								<div class="news__specs">
-									<time class="news__time">
-										24 Feb 2017
-									</time>
-									<a href="#" class="news__link news__link--comments">
-										45
-									</a>
-									<a href="#" class="news__link news__link--views">
-										345
-									</a>
+								<div class="product-card__image product-card__image--news product-card__image--products-release "
+									style="background-image: url(images/content/news-item-image2.jpg)">
 								</div>
-							</div>
+								<div class="product-card__user-info news__card-title">
+									<a href="#" class="product-card__title-link product-card__title-link--news">
+										The best advices to start your 
+own project
+									</a>
 
-							<div class="news__item">
-								<div class="news__image">
-									<a class="news__template-img" href="#"
-										style="background-image: url(images/content/news-item-bg1.jpg);">
-									</a>
-								</div>
-								<div class="news__user-info">
-									<a href="#" class=" news__title-link">
-										The best advices to start your
-										own project
-									</a>
-									<div class="news__descr">
-										Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-										the mattis, leo quam aliquet congue.
+
+									<div class="product-card__descr product-card__descr--news">
+										Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+										leo
+										quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.
+									</div>
+
+									<div class="news__specs">
+										<time class="news__time">
+											24 Feb 2017
+										</time>
+										<a href="#" class="news__link news__link--comments">
+											45
+										</a>
+										<a href="#" class="news__link news__link--views">
+											345
+										</a>
 									</div>
 								</div>
+							</article>
+							<article class="product-card product-card--followers product-card--small product-card--news">
 
-								<div class="news__specs">
-									<time class="news__time">
-										24 Feb 2017
-									</time>
-									<a href="#" class="news__link news__link--comments">
-										45
-									</a>
-									<a href="#" class="news__link news__link--views">
-										345
-									</a>
+								<div class="product-card__image product-card__image--news product-card__image--products-release "
+									style="background-image: url(images/content/news-item-image3.jpg)">
 								</div>
-							</div>
+								<div class="product-card__user-info news__card-title">
+									<a href="#" class="product-card__title-link news__title-link product-card__title-link--news">
+										Best Related Post Plugin
+									</a>
 
-							<div class="news__item">
-								<div class="news__image">
-									<a class="news__template-img" href="#"
-										style="background-image: url(images/content/news-item-bg1.jpg);">
-									</a>
-								</div>
-								<div class="news__user-info">
-									<a href="#" class="news__title-link">
-										Web Design Trends in 2017
-									</a>
-									<div class=" news__descr">
-										Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
-										the mattis, leo quam aliquet congue.
+
+									<div class="product-card__descr product-card__descr--news">
+										Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
+										leo
+										quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.Nunc placerat mi id nisi interdum mollis. Praesent
+										pharetra, justo ut scelerisque the mattis, leo quam
+										aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+										mattis,
+										leo quam aliquet congue justo ut scelerisque.
+									</div>
+
+									<div class="news__specs">
+										<time class="news__time">
+											24 Feb 2017
+										</time>
+										<a href="#" class="news__link news__link--comments">
+											45
+										</a>
+										<a href="#" class="news__link news__link--views">
+											345
+										</a>
 									</div>
 								</div>
-
-								<div class="news__specs">
-									<time class="news__time">
-										24 Feb 2017
-									</time>
-									<a href="#" class="news__link news__link--comments">
-										45
-									</a>
-									<a href="#" class="news__link news__link--views">
-										345
-									</a>
-								</div>
-							</div>
+							</article>
 
 						</div>
 
@@ -2038,15 +2128,15 @@
 				<section class="warranty">
 					<div class="warranty__inner">
 						<div class="warranty__item warranty__inner--guarantee">
-							<img class="warranty__icon warranty__icon-guarantee" src="images/icons/guarantee-bg.png"
+							<img class="warranty__icon warranty__icon--guarantee" src="images/icons/guarantee-bg.png"
 								alt="guarantee icon">
-							<div class="warranty__text">30 Days Money Back
+							<div class="warranty__text warranty__text--guarantee">30 Days Money Back
 								<a class="warranty__word warranty__word--guarantee" href="#">Guarantee</a>
 							</div>
 						</div>
 						<div class="warranty__item warranty__inner--support">
-							<img class="warranty__icon warranty__icon-support" src="images/icons/support-bg.png" alt="guarantee icon">
-							<div class="warranty__text">Fast and Friendly
+							<img class="warranty__icon warranty__icon--support" src="images/icons/support-bg.png" alt="guarantee icon">
+							<div class="warranty__text warranty__text--support">Fast and Friendly
 								<a class="warranty__word warranty__word--support" href="#">Support</a>
 							</div>
 						</div>
@@ -2089,7 +2179,7 @@
 						</div>
 
 						<div class="footer__col footer__col--list ">
-							<div class="footer__col-title">
+							<div class="footer__col-title footer__col-title--company">
 								Our Company
 							</div>
 							<ul class="footer__list">
@@ -2118,7 +2208,7 @@
 						</div>
 
 						<div class="footer__col footer__col--list-support">
-							<div class="footer__col-title">
+							<div class="footer__col-title footer__col-title--support">
 								Help Support
 							</div>
 							<ul class="footer__list">

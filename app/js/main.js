@@ -6,14 +6,13 @@ $(function () {
 	});
 
 	$('.followers-feed__slider').slick({
-		mobileFirst:true,
+		mobileFirst: true,
 		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 3,
 		variableWidth: true,
 		speed: 1000,
-		responsive: [
-			{
+		responsive: [{
 				breakpoint: 450,
 				settings: {
 					slidesToShow: 1,
@@ -42,7 +41,7 @@ $(function () {
 		nextArrow: '<button class="arrow product-card__arrow-right product-card__arrow-right--blue"><img class="product-card__img-arrow-right" src="../images/icons/chevron-right.svg" alt=""></button>'
 	});
 
-	
+
 
 	$('.rate-star--products-weekly').rateYo({
 		rating: 4.5,
@@ -66,51 +65,37 @@ $(function () {
 		starWidth: "15px",
 		spacing: "3px",
 		readOnly: false,
-		// normalFill: "#ffc000",
 	});
-	
+
 
 	$('.menu-btn').on('click', function () {
 		$('.main-menu').slideToggle('500', 'linear');
+		$(this).even('.menu-btn').toggleClass('cross');
 
 	});
+
+	$('.main-menu__item').on('click', function () {
+		$('.dropmenu').toggleClass('is-open');
+		return false;
+
+	});
+
 
 	$('.user-btn').on('click', function () {
-		$('.links').slideToggle('500', 'linear');
-
+		$('.links').toggleClass('active');
+		return false;
 	});
 
-	$('.main-menu__arrow--home').on('click', function () {
-		$('.dropmenu--home').slideToggle(500);
-
-	});
-	$('.main-menu__arrow--allproducts').on('click', function () {
-		$('.dropmenu--allproducts').slideToggle(500);
-
-	});
-	$('.main-menu__arrow--wordpress').on('click', function () {
-		$('.dropmenu--wordpress').slideToggle(500);
-
-	});
-	$('.main-menu__arrow--pages').on('click', function () {
-		$('.dropmenu--pages').slideToggle(500);
-
+	$(document).on('click', function(){
+		if($('.links').hasClass('active') && $(EventTarget).closest('.links').length == 0) {
+				$('.links').toggleClass('active');
+		}
 	});
 
-	$('.dropmenu__col--martplace').on('click', function () {
-		$('.dropmenu__inner--martplace').slideToggle(500);
+	
 
-	});
-	$('.dropmenu__col--dashboard').on('click', function () {
-		$('.dropmenu__inner--dashboard').slideToggle(500);
 
-	});
-	$('.dropmenu__col--others').on('click', function () {
-		$('.dropmenu__inner--others').slideToggle(500);
-
-	});
-
-	$('.aside__title').on('click', function(){
+	$('.aside__title').on('click', function () {
 		$(this).next('.aside-box__list').toggleClass('hidden');
 		$(this).next('.form-range').toggleClass('hidden');
 	});
@@ -122,9 +107,8 @@ $(function () {
 		from: 30,
 		to: 300,
 		prefix: '$'
-});
+	});
 
 	var mixer = mixitup('.products-release__inner');
 
 });
-

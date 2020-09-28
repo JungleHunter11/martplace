@@ -12,6 +12,10 @@
 		}
 	}
 
+	.dropmenu--pages {
+		right: unset;
+	}
+
 	.assignment {
 		&__item {
 			padding: 10px;
@@ -156,7 +160,6 @@
 
 @media (max-width: 992px) {
 	.dropmenu {
-		width: 100%;
 		text-align: center;
 		background-color: #fff;
 	}
@@ -173,16 +176,57 @@
 
 	.header {
 		.links {
-			display: none;
-			margin-right: 50px;
+			position: absolute;
+			top: 53px;
+			left: -15px;
+			padding: 10px 5px;
+			transform: translateX(-100%);
+			opacity: 0;
+			visibility: hidden;
+			transition: all .2s ease;
+			background-color: #eef1f3;
+			border-top-right-radius: 30px;
+			border-bottom-right-radius: 30px;
+			border: 1px solid $blue;
+
+			&.active {
+				display: flex;
+				flex-direction: column-reverse;
+				align-items: center;
+				transform: translate(0);
+				opacity: 1;
+				visibility: visible;
+				z-index: 3;
+			}
+
+			&__box {
+				display: block;
+			}
 		}
 
 		.link-item {
 			height: unset;
-			margin-right: 10px;
+			margin-right: unset;
+
+			&__user {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-bottom: 5px;
+
+				&--icon {
+					margin: 0;
+				}
+			}
+
+			&::before {
+				font-size: 44px;
+			}
 
 			&__amount {
-				display: none;
+				right: unset;
+				top: -3px;
+				left: -13px;
 			}
 		}
 
@@ -193,16 +237,18 @@
 		.menu-btn {
 			position: absolute;
 			top: 7px;
-			right: 15px;
+			right: 0;
 			display: block;
 			z-index: 2;
 		}
 
 		.main-menu {
-			width: 100%;
+			width: 100vw;
+			max-width: 50%;
 			position: absolute;
 			z-index: 2;
 			top: 0;
+			right: -15px;
 			display: none;
 			margin: 0;
 
@@ -218,30 +264,62 @@
 				background-color: #fff;
 				border-bottom: 1px solid $blue;
 				text-align: center;
+
+				&:last-child {
+					border-bottom-left-radius: 30px;
+				}
+
+				&:hover {
+					.dropmenu {
+						display: none;
+					}
+				}
 			}
 
 			&__arrow {
-				right: -33px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				right: 0;
+				font-size: 44px;
+				background-color: transparent;
+			}
+
+			&__link {
+				display: inline;
+				margin: 0;
+				font-size: 20px;
+
 			}
 		}
 
 		.join-link {
 			margin-left: unset;
 		}
+	}
 
-		.search-form {
-			position: absolute;
-			left: 0px;
-			top: 50%;
-			height: 30px;
-			max-width: 300px;
+	.search-form {
+		max-width: 208px;
+		display: none;
 
-			&__input {
+		&--hidden-media {
+			display: block;
+
+			.search-form__input {
 				height: 100%;
 				width: 100%;
+				padding-right: 35px;
+
+				&::placeholder {
+					font-size: 13px;
+				}
 			}
 
-			&__btn {
+			.search-form__btn {
+				max-width: 35px;
 				height: 100%;
 			}
 		}
