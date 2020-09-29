@@ -274,14 +274,6 @@ body {
 	overflow: hidden;
 	padding: 20px 21px;
 
-
-	&.is-open {
-		opacity: 1;
-		z-index: 999;
-		visibility: visible;
-		overflow: visible;
-	}
-
 	&__list {
 		margin: 0;
 		padding: 0;
