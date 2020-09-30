@@ -84,11 +84,9 @@ $(function () {
 
 	$('.main-menu__arrow--col-menu').on('click', function () {
 		// $(this).next('.dropmenu__inner').toggleClass('is-open')
-		$('.dropmenu__inner').slideToggle('500', 'linear');
+		$(this).parent().next('.dropmenu__inner').slideToggle('500', 'linear');
 
 	});
-
-
 
 	$('.user-btn').on('click', function () {
 		$('.links').toggleClass('active');
@@ -98,7 +96,8 @@ $(function () {
 	$(document).on('click', function(){
 		if($('.links').hasClass('active') && $(event.target).closest(".links").length == 0) {
 				$('.links').toggleClass('active');
-		}
+		};
+		
 	});
 
 	
