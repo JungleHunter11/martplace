@@ -19,8 +19,8 @@
 					<div class="container">
 						<div class="header__top-inner">
 
-							<div class="user-btn">
-							</div>
+							<button class="user-btn">
+							</button>
 
 							<a class="logo-link" href="#">
 								<img class="logo-link__img" src="images/header-logo.png" alt="logo">
@@ -37,16 +37,15 @@
 							<a class="join-link" href="#">
 								Become a Seller
 							</a>
-							<div class="menu-btn">
+							<button class="menu-btn" type="button">
 								<div class="menu-btn__inner">
 									<div class="menu-btn__line menu-btn__line--top"></div>
 									<div class="menu-btn__line menu-btn__line--middle"></div>
 									<div class="menu-btn__line menu-btn__line--bottom"></div>
 								</div>
-							</div>
+							</button>
 
 							<div class="links">
-
 								<div class="links__box">
 									<a class="link-item link-item--notif" href="#">
 										<span class="link-item__text">notifications</span>
@@ -56,7 +55,7 @@
 									<div class="dropdown dropdown--notif">
 										<div class="dropdown__title dropdown__title--notif">
 											<a class="dropdown__title-link" href="#">My Notifications</a>
-											<a class="dropdown__title-link--viewall" href="#">
+											<a class="dropdown__title-link dropdown__title-link--viewall" href="#">
 												View All
 											</a>
 										</div>
@@ -133,7 +132,7 @@
 									<div class="dropdown dropdown--msg">
 										<div class="dropdown__title dropdown__title--msg">
 											<a class="dropdown__title-link" href="#">My Messages</a>
-											<a class="dropdown__title-link--viewall" href="#">
+											<a class="dropdown__title-link dropdown__title-link--viewall" href="#">
 												View All
 											</a>
 										</div>
@@ -142,7 +141,8 @@
 												<a href="#" class="dropdown__link dropdown__link--msg">
 													<img class="dropdown__img" src="images/icons/user-icon.png" alt="user icon">
 													<div class="dropdown__info">
-														<div class="dropdown__name dropdown__name--msg dropdown__name--envelope">Washim</div>
+														<div class="dropdown__name dropdown__name--msg">Washim</div>
+														<img class="dropdown__name-icon" src="images/content/envelope.png" alt="replay icon">
 														<div class="dropdown__text">Hello John Smith! Nunc placerat id...</div>
 													</div>
 												</a>
@@ -154,7 +154,8 @@
 												<a href="#" class="dropdown__link dropdown__link--msg">
 													<img class="dropdown__img" src="images/icons/user-icon.png" alt="user icon">
 													<div class="dropdown__info">
-														<div class="dropdown__name dropdown__name--msg dropdown__name--envelope">Bulbul Ahmed</div>
+														<div class="dropdown__name dropdown__name--msg">Bulbul Ahmed</div>
+														<img class="dropdown__name-icon" src="images/content/envelope.png" alt="replay icon">
 														<div class="dropdown__text">Hello John Smith! Nunc placerat id...</div>
 													</div>
 												</a>
@@ -166,8 +167,8 @@
 												<a href="#" class="dropdown__link dropdown__link--msg">
 													<img class="dropdown__img" src="images/icons/user-icon.png" alt="user icon">
 													<div class="dropdown__info">
-														<div class="dropdown__name dropdown__name--msg dropdown__name--reply">EchoTheme</div>
-
+														<div class="dropdown__name dropdown__name--msg">EchoTheme</div>
+														<img class="dropdown__name-icon" src="images/content/reply.png" alt="replay icon">
 														<div class="dropdown__text">Hello John Smith! Nunc placerat id...</div>
 													</div>
 												</a>
@@ -210,28 +211,28 @@
 									</a>
 									<!-- CART MENU START -->
 									<div class="dropdown dropdown--cart">
-										<ul class="dropdown__list dropdown__list--cart">
-											<li class="dropdown__item dropdown__item--cart">
-												<img class="dropdown__img--cart" src="images/content/dropmenu-img.jpg" alt="item image">
-												<div class="dropdown__name dropdown__name--cart">
-													<a class="dropdown__link dropdown__link--cart" href="#">Finance and Consulting
+										<ul class="dropdown__list">
+											<li class="dropdown__item">
+												<img class="dropdown__img" src="images/content/dropmenu-img.jpg" alt="item image">
+												<div class="dropdown__name">
+													<a class="dropdown__link" href="#">Finance and Consulting
 														Business Theme</a>
-													<a class="dropdown__platform dropdown__platform--cart" href="#">Wordpress</a>
+													<a class="dropdown__platform" href="#">Wordpress</a>
 												</div>
-												<div class="dropdown__action dropdown__action--cart">
+												<div class="dropdown__action">
 													<button class="dropdown__bin" type="submit"></button>
 													<div class="dropdown__price">$60</div>
 												</div>
 											</li>
 
-											<li class="dropdown__item dropdown__item--cart">
-												<img class="dropdown__img--cart" src="images/content/dropmenu-img.jpg" alt="item image">
-												<div class="dropdown__name dropdown__name--cart">
-													<a class="dropdown__link dropdown__link--cart" href="#">Flounce - Multipurpose
+											<li class="dropdown__item">
+												<img class="dropdown__img" src="images/content/dropmenu-img.jpg" alt="item image">
+												<div class="dropdown__name">
+													<a class="dropdown__link" href="#">Flounce - Multipurpose
 														OpenCart Theme</a>
-													<a class="dropdown__platform dropdown__platform--cart" href="#">Wordpress</a>
+													<a class="dropdown__platform" href="#">Wordpress</a>
 												</div>
-												<div class="dropdown__action dropdown__action--cart">
+												<div class="dropdown__action">
 													<button class="dropdown__bin" type="submit"></button>
 													<div class="dropdown__price">$20</div>
 												</div>
@@ -267,40 +268,40 @@
 									<!-- USER MENU START  -->
 									<div class="dropmenu dropmenu--user">
 										<ul class="dropmenu__list">
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--profile">Profile Page</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--profile">Profile Page</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--dash">Dashboard</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--dash">Dashboard</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--acc">Account Settings</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--acc">Account Settings</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class=" dropmenu__link dropmenu__link--user dropmenu__link--purch">Your
+											<li class="dropmenu__item">
+												<a href="#" class=" dropmenu__link dropmenu__link--purch">Your
 													Purchases</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--fav">Your Favorites</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--fav">Your Favorites</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--cred">Add Credits</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--cred">Add Credits</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--stat">Sales
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--stat">Sales
 													Statements</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--upload">Upload Item</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--upload">Upload Item</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--edit">Edit Item</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--edit">Edit Item</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--with">Withdrawals</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--with">Withdrawals</a>
 											</li>
-											<li class="dropmenu__item dropmenu__item--user">
-												<a href="#" class="dropmenu__link dropmenu__link--user dropmenu__link--logout">Logout</a>
+											<li class="dropmenu__item">
+												<a href="#" class="dropmenu__link dropmenu__link--logout">Logout</a>
 											</li>
 										</ul>
 									</div>
@@ -330,13 +331,13 @@
 										<!-- HOME MENU START  -->
 										<div class="dropmenu dropmenu--home">
 											<ul class="dropmenu__list">
-												<li class="dropmenu__item dropmenu__item--home">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Home One Multi User</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--home">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Home Two Single User</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--home">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Home Three Product</a>
 												</li>
 											</ul>
@@ -389,31 +390,31 @@
 										<!-- WORDPRESSMENU START  -->
 										<div class="dropmenu dropmenu--wordpress">
 											<ul class="dropmenu__list">
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Popular Items</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Admin Templates</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Blog / Magazine / News</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Creative</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Corporate Business</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Resume Portfolio</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#"> eCommerce</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Entertainment</a>
 												</li>
-												<li class="dropmenu__item dropmenu__item--wordpress">
+												<li class="dropmenu__item">
 													<a class="dropmenu__link" href="#">Landing Pages</a>
 												</li>
 											</ul>
@@ -438,7 +439,7 @@
 										<ul class="dropmenu dropmenu--pages">
 
 											<li class="dropmenu__col dropmenu__col--martplace">
-												<div class="dropmenu__title  dropmenu__title--pages dropmenu__title--martplace">
+												<div class="dropmenu__title dropmenu__title--martplace">
 													<span class="dropmenu__title-text">
 														MartPlace Pages
 													</span>
@@ -448,81 +449,81 @@
 													</button>
 												</div>
 												<div class="dropmenu__inner dropmenu__inner--wide dropmenu__inner--martplace">
-													<ul class="dropmenu__list dropmenu__list--pages  dropmenu__list--left">
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page One</a>
+													<ul class="dropmenu__list  dropmenu__list--left">
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Home Page One</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page One</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Home Page One</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Home Page Three</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Home Page Three</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Products Grid</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Products Grid</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Products List</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Products List</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Category Grid Sidebar</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Category Grid Sidebar</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Category List Sidebar</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Category List Sidebar</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Search Product</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Search Product</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-1</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Single Product V-1</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-2</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Single Product V-2</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Product V-3</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Single Product V-3</a>
 														</li>
 													</ul>
-													<ul class="dropmenu__list dropmenu__list--pages">
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items comments</a>
+													<ul class="dropmenu__list">
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Single Items comments</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items Reviews</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Single Items Reviews</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items Support</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Single Items Support</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Single Items</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Single Items</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Favorites Items</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Favorites Items</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Author Profile</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Author Profile</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Author Items</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Author Items</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Customer Reviews</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Customer Reviews</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Followers</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Followers</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Following</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Following</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Product View Variations</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Product View Variations</a>
 														</li>
 													</ul>
 												</div>
 											</li>
 
 											<li class="dropmenu__col dropmenu__col--dashboard">
-												<div class="dropmenu__title  dropmenu__title--pages dropmenu__title--dashboard">
+												<div class="dropmenu__title dropmenu__title--dashboard">
 													<span class="dropmenu__title-text">
 														Dashboard
 													</span>
@@ -532,46 +533,46 @@
 													</button>
 												</div>
 												<div class="dropmenu__inner dropmenu__inner--dashboard">
-													<ul class="dropmenu__list dropmenu__list--pages">
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Dashboard</a>
+													<ul class="dropmenu__list">
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Dashboard</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Account Settings</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Account Settings</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Author Purchases</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Author Purchases</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Items Rating</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Items Rating</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Add Credits</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Add Credits</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Statements</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Statements</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Invoice</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Invoice</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Upload Item</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Upload Item</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Edit Items</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Edit Items</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Withdrawals</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Withdrawals</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Add Payment Method</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Add Payment Method</a>
 														</li>
 													</ul>
 												</div>
 											</li>
 
 											<li class="dropmenu__col dropmenu__col--others">
-												<div class="dropmenu__title  dropmenu__title--pages dropmenu__title--col-menu">
+												<div class="dropmenu__title dropmenu__title--col-menu">
 													<span class="dropmenu__title-text">
 														Others Pages
 													</span>
@@ -581,77 +582,77 @@
 													</button>
 												</div>
 												<div class="dropmenu__inner dropmenu__inner--wide dropmenu__inner--others">
-													<ul class="dropmenu__list dropmenu__list--pages dropmenu__list--left">
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Notifications</a>
+													<ul class="dropmenu__list dropmenu__list--left">
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Notifications</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Message Inbox</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Message Inbox</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Message Compose</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Message Compose</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Shopping Cart</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Shopping Cart</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Checkout</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Checkout</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Login</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Login</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Register</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Register</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Recovery Password</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Recovery Password</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Support Forum</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Support Forum</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Forum Details</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Forum Details</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">How It Works</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">How It Works</a>
 														</li>
 													</ul>
-													<ul class="dropmenu__list dropmenu__list--pages">
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">About Us</a>
+													<ul class="dropmenu__list">
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">About Us</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages" wp-menu__link>
-															<a class="dropmenu__link dropmenu__link--pages" href="">Pricing Plan</a>
+														<li class="dropmenu__item" wp-menu__link>
+															<a class="dropmenu__link" href="">Pricing Plan</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Testimonials</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Testimonials</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">FAQs</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">FAQs</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">FAQs Details</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">FAQs Details</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Affiliates</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Affiliates</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Terms & Conditions</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Terms & Conditions</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Blog V-1</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Blog V-1</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Blog V-2</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Blog V-2</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Blog Details</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Blog Details</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Contact Us</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Contact Us</a>
 														</li>
-														<li class="dropmenu__item dropmenu__item--pages">
-															<a class="dropmenu__link dropmenu__link--pages" href="#">Menu & Footer Variation</a>
+														<li class="dropmenu__item">
+															<a class="dropmenu__link" href="#">Menu & Footer Variation</a>
 														</li>
 													</ul>
 												</div>
@@ -702,7 +703,7 @@
 									</div>
 
 									<div class="marketplace__main-links">
-										<a class="marketplace__main-link marketplace__all-link btn" href="#">
+										<a class="marketplace__main-link btn btn--marketplace" href="#">
 											View All Products
 										</a>
 										<a class="marketplace__main-link marketplace__popular-link btn" href="#">
@@ -713,18 +714,13 @@
 
 									<div class="marketplace__search">
 										<form class="marketplace__form">
-											<label class="marketplace__label-input">
-												<span class="marketplace__label-text">
-													search your products here
-												</span>
-												<input class="marketplace__input" type="text" placeholder="Search your products...">
-											</label>
-											<label class="marketplace__label-select">
-												<span class="marketplace__label-text">marketplace select</span>
-												<select class="marketplace__select">
+											<label class="marketplace__label-input" for="search-input"><span class="marketplace__label-text">marketplace search product</span></label>
+												<input class="marketplace__input" id="search-input" type="text" placeholder="Search your products...">
+											<label class="marketplace__label-select" for="search-select"></label>
+												<span class="marketplace__label-text">marketplace select category</span>
+												<select class="marketplace__select" id="search-select">
 													<option value="0">All Categories</option>
 												</select>
-											</label>
 											<button class="marketplace__btn" type="submit">
 												Search Now
 											</button>

@@ -1,8 +1,8 @@
 $(function () {
 
 	$('.products-weekly__slider').slick({
-		prevArrow: '<button class="arrow product-card__arrow product-card__arrow-left product-card__arrow-left--purple"><img class="product-card__img-arrow-left" src="../images/icons/chevron-left.svg" alt=""></button>',
-		nextArrow: '<button class="arrow product-card__arrow product-card__arrow-right product-card__arrow-right--purple"><img class="product-card__img-arrow-right" src="../images/icons/chevron-right.svg" alt=""></button>',
+		prevArrow: '<button class="arrow product-card__arrow product-card__arrow-left product-card__arrow-left--purple"><img class="product-card__img-arrow product-card__img-arrow--left" src="../images/icons/chevron-left.svg" alt="arrow left"></button>',
+		nextArrow: '<button class="arrow product-card__arrow product-card__arrow-right product-card__arrow-right--purple"><img class="product-card__img-arrow product-card__img-arrow--right" src="../images/icons/chevron-right.svg" alt="arrow right"></button>',
 	});
 
 	$('.followers-feed__slider').slick({
@@ -10,30 +10,33 @@ $(function () {
 		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 3,
-		variableWidth: true,
-		speed: 1000,
-		responsive: [{
-				breakpoint: 450,
+		speed: 500,
+		responsive: [
+			{
+				breakpoint: 1,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					infinite: true,
+					variableWidth: false
 				}
 			},
 			{
-				breakpoint: 799,
+				breakpoint: 699,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 2,
 					infinite: true,
+					variableWidth: false
 				}
 			},
 			{
-				breakpoint: 1135,
+				breakpoint: 1200,
 				settings: {
 					slidesToShow: 3,
 					slidesToScroll: 3,
 					infinite: true,
+					variableWidth: true
 				}
 			}
 		],
